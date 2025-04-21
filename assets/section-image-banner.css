@@ -548,6 +548,7 @@
 
 .value-props__info span:nth-of-type(1) {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .value-props__info span:nth-of-type(2) {
