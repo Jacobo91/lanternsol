@@ -538,3 +538,7 @@
   height: auto;
   object-fit: cover;
 }
+
+.value-props__info {
+  display: flex;
+}
