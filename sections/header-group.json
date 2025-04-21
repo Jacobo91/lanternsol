@@ -39,7 +39,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "sticky-header {position: absolute; width: 100%;}"
+        "sticky-header {position: absolute; width: 100%; border: none;}"
       ],
       "settings": {
         "logo_position": "middle-left",
