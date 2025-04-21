@@ -3746,4 +3746,5 @@ details-disclosure > details {
 
 .banner__buttons .button.button--primary:hover {
   background: red;
+  transform: scale(4);
 }
