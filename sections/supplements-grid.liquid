@@ -8,7 +8,26 @@
     <div class="supplements__products-grid">
         {% if section.settings.product_list %}
             {% for product in section.settings.product_list %}
-                <span>{{ product.title }}</span>
+                <ul>
+                    {%- if section.settings.product_list > 0 -%}
+                        {% paginate section.settings.product_list by 4 %}
+                          {%- for product in section.settings.product_list limit: 4 -%}
+                            <li>
+                              {% render 'card-product',
+                                card_product: product,
+                                media_aspect_ratio: section.settings.image_ratio,
+                                image_shape: section.settings.image_shape,
+                                show_secondary_image: section.settings.show_secondary_image,
+                                show_vendor: section.settings.show_vendor,
+                                show_rating: section.settings.show_rating,
+                                section_id: section.id,
+                                quick_add: section.settings.quick_add
+                              %}
+                            </li>
+                          {%- endfor -%}
+                        {% endpaginate %}
+                      {%- endif -%}
+                </ul>
             {% endfor %}
         {% endif %}
     </div>
