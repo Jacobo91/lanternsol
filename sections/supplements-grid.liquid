@@ -1,7 +1,8 @@
 <div id="supplements-{{ section.id }}" class="supplements">
 
     <div class="supplements__info">
-
+        <h2>{{ section.settings.title }}</h2>
+        <p>{{ section.settings.text }}</p>
     </div>
 
     <div class="supplements__products-grid">
@@ -11,3 +12,26 @@
     <a>shop all</a>
 
 </div>
+
+{% schema %}
+    {
+        "name": "supplements",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Supplements title"
+            },
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Supplements text"
+            }
+        ],
+        "presets": [
+            {
+                "name": "supplements"
+            }
+        ]
+    }
+{% endschema %}
