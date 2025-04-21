@@ -509,3 +509,10 @@
     gap: 50px;
   }
 }
+
+/* value props */
+
+.value-props__image-wrapper {
+  width: 42px;
+  height: 48px;
+}
