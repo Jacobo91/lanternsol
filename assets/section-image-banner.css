@@ -216,6 +216,7 @@
 .banner--adapt,
 .banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {
   height: auto;
+  max-height: 972px;
 }
 
 @media screen and (max-width: 749px) {
@@ -324,6 +325,12 @@
   .banner__content--bottom-right {
     align-items: flex-end;
     justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner__content {
+    padding: 8rem 5rem 5rem 5rem;
   }
 }
 
@@ -492,5 +499,13 @@
   .banner--desktop-transparent .inline-richtext a:hover,
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
+  }
+}
+
+@media screen  and (min-width: 1044px) {
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 }
