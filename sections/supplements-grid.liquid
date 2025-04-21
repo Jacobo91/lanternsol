@@ -9,7 +9,6 @@
         {% if section.settings.product_list %}
             <ul>
                 {% for product in section.settings.product_list %}
-                    {%- for product in section.settings.product_list -%}
                     <li>
                         {% render 'card-product',
                         card_product: product,
@@ -22,7 +21,6 @@
                         quick_add: section.settings.quick_add
                         %}
                     </li>
-                    {%- endfor -%}
                 {% endfor %}
             </ul>
         {% endif %}
