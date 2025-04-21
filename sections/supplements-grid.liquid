@@ -6,7 +6,7 @@
     </div>
 
     <div class="supplements__products-grid">
-        {% if section.settings.product_list count == 4 %}
+        {% if section.settings.product_list %}
             {% for product in section.settings.product_list %}
                 <span>{{ product.title }}</span>
             {% endfor %}
