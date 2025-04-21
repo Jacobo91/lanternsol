@@ -163,10 +163,10 @@
             {% when 'image_picker' %}
               <div>
                 <div>
-                  <img src="{{ block.settings.block_image_picker | image_url: width: 800 }}">
+                  <img src="{{ block.settings.block_image_picker_1 | image_url: width: 800 }}">
                 </div>
                 <div>
-                  <img src="{{ block.settings.block_image_picker | image_url: width: 800 }}">
+                  <img src="{{ block.settings.block_image_picker_2 | image_url: width: 800 }}">
                 </div>
               </div>
         {%- endcase -%}
@@ -501,8 +501,13 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "block_image_picker",
-          "label": "block image"
+          "id": "block_image_picker_1",
+          "label": "block image one"
+        },
+        {
+          "type": "image_picker",
+          "id": "block_image_picker_2",
+          "label": "block image two"
         }
       ]
     }
