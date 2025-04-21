@@ -3597,11 +3597,29 @@ details-disclosure > details {
 }
 
 /* Banner */
+#banner-img-text-1__container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#banner-img-text-1__container img{
+  width: 100%;
+}
+
 #banner-img-text-2__container {
-  width: 80%;  
+  width: 40%;  
   margin: 0 auto;
 }
 
 #banner-img-text-2__container img{
   width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  #banner-img-text-1__container {
+    width: 100%;
+  }
+  #banner-img-text-2__container {
+    width: 80%;
+  }
 }
