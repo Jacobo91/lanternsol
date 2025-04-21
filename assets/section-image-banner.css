@@ -216,7 +216,6 @@
 .banner--adapt,
 .banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {
   height: auto;
-  /* max-height: 972px; */
 }
 
 @media screen and (max-width: 749px) {
@@ -328,12 +327,6 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .banner__content {
-    padding: 7.78rem 5rem 5rem 5rem;
-  }
-}
-
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom:not(.banner--stacked) .banner__content {
     order: 2;
@@ -346,7 +339,7 @@
 }
 
 .banner__box {
-  padding: 1rem 1.5rem;
+  padding: 4rem 1.5rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -366,7 +359,7 @@
   }
 
   .banner--desktop-transparent .banner__box {
-    padding: 0rem 0;
+    padding: 4rem 0;
     background: transparent;
     max-width: 89rem;
     border: none;
@@ -387,10 +380,6 @@
   .banner--mobile-bottom::after,
   .banner--mobile-bottom .banner__media::after {
     display: none;
-  }
-
-  .banner__content.banner__content--top-center.page-width.scroll-trigger.animate--slide-in {
-    align-items: flex-start;
   }
 }
 
@@ -481,10 +470,10 @@
     justify-content: flex-end;
   }
 }
-/* 
+
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
-} */
+}
 
 @media screen and (max-width: 749px) {
   .banner:not(.slideshow) .rte a,
@@ -499,64 +488,5 @@
   .banner--desktop-transparent .inline-richtext a:hover,
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
-  }
-}
-
-.banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
-  height: 98%;
-}
-
-@media screen  and (min-width: 1044px) {
-  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-}
-
-/* value props */
-
-.value-props-wrapper {
-  display: none;
-}
-
-.value-prop-card {
-  display: flex;
-  gap: 18px;
-}
-
-.value-props__image-wrapper {
-  width: 42px;
-  height: 48px;
-}
-
-.value-props__image-wrapper img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.value-props__info {
-  display: grid;
-  justify-items: flex-start;
-  font-family: 'Barlow';
-  font-size: 14px;
-}
-
-.value-props__info span:nth-of-type(1) {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.value-props__info span:nth-of-type(2) {
-  font-weight: 300;
-}
-
-@media screen and (min-width: 1440px) {
-  .value-props-wrapper {
-    width: 115%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
   }
 }
