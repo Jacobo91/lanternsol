@@ -3713,4 +3713,5 @@ details-disclosure > details {
 .banner__buttons .button.button--primary:hover .mask {
   width: 350px;
   height: 350px;
+  background-color: red;
 }
