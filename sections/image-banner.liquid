@@ -162,7 +162,12 @@
             </div>
             {% when 'image_picker' %}
               <div>
-                <img src="{{ block.settings.block_image_picker }}">
+                <div>
+                  <img src="{{ block.settings.block_image_picker | image_url }}">
+                </div>
+                <div>
+                  <img src="{{ block.settings.block_image_picker | image_url }}">
+                </div>
               </div>
         {%- endcase -%}
       {%- endfor -%}
