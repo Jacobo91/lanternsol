@@ -481,10 +481,10 @@
     justify-content: flex-end;
   }
 }
-
+/* 
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
-}
+} */
 
 @media screen and (max-width: 749px) {
   .banner:not(.slideshow) .rte a,
