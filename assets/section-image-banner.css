@@ -525,6 +525,7 @@
 
 .value-prop-card {
   display: flex;
+  gap: 18px;
 }
 
 .value-props__image-wrapper {
