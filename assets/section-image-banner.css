@@ -381,6 +381,10 @@
   .banner--mobile-bottom .banner__media::after {
     display: none;
   }
+
+  .banner__content.banner__content--top-center.page-width.scroll-trigger.animate--slide-in {
+    align-items: flex-start;
+  }
 }
 
 .banner::after,
