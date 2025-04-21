@@ -513,6 +513,7 @@
 /* value props */
 
 .value-props-wrapper {
+  width: 100%;
   display: flex;
 }
 
