@@ -9,7 +9,6 @@
         {% if section.settings.product_list %}
             {% for product in section.settings.product_list %}
                 <ul>
-                    {%- if section.settings.product_list > 0 -%}
                         {% paginate section.settings.product_list by 4 %}
                           {%- for product in section.settings.product_list limit: 4 -%}
                             <li>
@@ -26,7 +25,7 @@
                             </li>
                           {%- endfor -%}
                         {% endpaginate %}
-                      {%- endif -%}
+               
                 </ul>
             {% endfor %}
         {% endif %}
