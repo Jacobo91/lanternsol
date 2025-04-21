@@ -162,7 +162,7 @@
             </div>
             {% when 'image_picker' %}
               <div>
-                <img src="{{ block.settings.image_picker }}">
+                <img src="{{ block.settings.block_image_picker }}">
               </div>
         {%- endcase -%}
       {%- endfor -%}
@@ -493,7 +493,13 @@
     {
       "type": "image_picker",
       "name": "image text",
-      "settings": []
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image_picker",
+          "label": "block image"
+        }
+      ]
     }
   ],
   "presets": [
