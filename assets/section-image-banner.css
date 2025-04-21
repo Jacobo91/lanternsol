@@ -552,4 +552,5 @@
 
 .value-props__info span:nth-of-type(2) {
   font-weight: 300;
+  letter-spacing: 0%;
 }
