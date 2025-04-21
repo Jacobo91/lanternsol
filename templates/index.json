@@ -73,6 +73,16 @@
         "show_text_below": false
       }
     },
+    "supplements_grid_JeHJj7": {
+      "type": "supplements-grid",
+      "settings": {
+        "title": "Endless Support for Every Health Journey",
+        "text": "VitaLuxe supplements are crafted with your future in mind—formulated by experts, rooted in science, and designed to work as hard as you do. Because your health deserves nothing less.",
+        "product_list": [],
+        "button_link": "shopify://collections/all",
+        "button_text": "SHOP ALL"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -104,6 +114,7 @@
   },
   "order": [
     "image_banner",
+    "supplements_grid_JeHJj7",
     "featured_collection"
   ]
 }
