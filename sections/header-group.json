@@ -38,6 +38,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "sticky-header {position: absolute; width: 100%;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
