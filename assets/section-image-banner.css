@@ -512,6 +512,10 @@
 
 /* value props */
 
+.value-props-wrapper {
+  display: flex;
+}
+
 .value-props__image-wrapper {
   width: 42px;
   height: 48px;
