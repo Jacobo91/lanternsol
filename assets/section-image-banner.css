@@ -271,7 +271,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   z-index: 2;
 }
