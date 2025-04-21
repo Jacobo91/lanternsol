@@ -171,31 +171,34 @@
                 </div>
               </div>
               {%- when 'value_props' -%}
-              <div id="value-props">
-                <div>
-                  <div>
+              <div id="value-props" class="value-props-wrapper">
+                <div class="value-prop-card">
+                  <div class="value-props__image-wrapper">
                     <img src="{{ block.settings.image_1 | image_url: width: 800 }}">
                   </div>
-                  <div>
-                    info
+                  <div class="value-props__info">
+                    <span>{{ block.settings.heading_1 }}</span>
+                    <span>{{ block.settings.text_1 }}</span>
                   </div>
                 </div>
 
-                <div>
-                  <div>
+                <div class="value-prop-card">
+                  <div class="value-props__image-wrapper">
                     <img src="{{ block.settings.image_2 | image_url: width: 800 }}">
                   </div>
-                  <div>
-                    info
+                  <div class="value-props__info">
+                    <span>{{ block.settings.heading_2 }}</span>
+                    <span>{{ block.settings.text_2 }}</span>
                   </div>
                 </div>
 
-                <div>
-                  <div>
+                <div class="value-prop-card">
+                  <div class="value-props__image-wrapper">
                     <img src="{{ block.settings.image_3 | image_url: width: 800 }}">
                   </div>
-                  <div>
-                    info
+                  <div class="value-props__info">
+                    <span>{{ block.settings.heading_3 }}</span>
+                    <span>{{ block.settings.text_3 }}</span>
                   </div>
                 </div>
               </div>
@@ -551,13 +554,44 @@
           "label": "value prop img 1"
         },
         {
+          "type": "text",
+          "id": "heading_1",
+          "label": "heading 1"
+        },
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "text 1"
+        },
+        {
           "type": "image_picker",
           "id": "image_2",
           "label": "value prop img 2"
-        },        {
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "label": "heading 2"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "text 2"
+        },        
+        {
           "type": "image_picker",
           "id": "image_3",
           "label": "value prop img 3"
+        },
+        {
+          "type": "text",
+          "id": "heading_3",
+          "label": "heading 3"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "label": "text 3"
         }
       ]
     }
