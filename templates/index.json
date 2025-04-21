@@ -78,7 +78,12 @@
       "settings": {
         "title": "Endless Support for Every Health Journey",
         "text": "VitaLuxe supplements are crafted with your future in mind—formulated by experts, rooted in science, and designed to work as hard as you do. Because your health deserves nothing less.",
-        "product_list": [],
+        "product_list": [
+          "vitamin-d3-k1-k2",
+          "methylation",
+          "omega-krill-oil",
+          "omega-krill-oil-2"
+        ],
         "button_link": "shopify://collections/all",
         "button_text": "SHOP ALL"
       }
