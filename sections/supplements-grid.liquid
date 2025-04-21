@@ -9,7 +9,7 @@
         {% if section.settings.product_list %}
             {% for product in section.settings.product_list %}
                 <ul>
-                        {% paginate section.settings.product_list by 4 %}
+
                           {%- for product in section.settings.product_list limit: 4 -%}
                             <li>
                               {% render 'card-product',
@@ -24,7 +24,7 @@
                               %}
                             </li>
                           {%- endfor -%}
-                        {% endpaginate %}
+
                
                 </ul>
             {% endfor %}
