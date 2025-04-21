@@ -3744,7 +3744,7 @@ details-disclosure > details {
   }
 }
 
-.banner__buttons .button.button--primary:hover {
+.banner__buttons .button.button--primary:after:hover {
   background: rgba(233, 18, 138, 1);
   transform: scale(1);
 }
