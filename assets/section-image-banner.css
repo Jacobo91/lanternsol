@@ -502,6 +502,10 @@
   }
 }
 
+.banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+  height: 100%;
+}
+
 @media screen  and (min-width: 1044px) {
   .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
     display: flex;
