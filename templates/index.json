@@ -37,12 +37,17 @@
             "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false
           }
+        },
+        "value_props_Ab9NhR": {
+          "type": "value_props",
+          "settings": {}
         }
       },
       "block_order": [
         "image_picker_hDYdzR",
         "heading",
-        "button"
+        "button",
+        "value_props_Ab9NhR"
       ],
       "settings": {
         "image": "shopify://shop_images/banner_img.jpg",
