@@ -339,7 +339,7 @@
 }
 
 .banner__box {
-  padding: 4rem 1.5rem;
+  padding: 1rem 1.5rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -359,7 +359,7 @@
   }
 
   .banner--desktop-transparent .banner__box {
-    padding: 4rem 0;
+    padding: 0rem 0;
     background: transparent;
     max-width: 89rem;
     border: none;
@@ -380,6 +380,10 @@
   .banner--mobile-bottom::after,
   .banner--mobile-bottom .banner__media::after {
     display: none;
+  }
+
+  .banner__content.banner__content--top-center.page-width.scroll-trigger.animate--slide-in {
+    align-items: flex-start;
   }
 }
 
