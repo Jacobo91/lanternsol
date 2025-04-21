@@ -516,3 +516,9 @@
   width: 42px;
   height: 48px;
 }
+
+.value-props__image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
