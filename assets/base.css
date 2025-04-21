@@ -3724,7 +3724,7 @@ details-disclosure > details {
   background: white;
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; /* so clicks go through the mask */
+  pointer-events: none;
   z-index: 1;
 }
 
