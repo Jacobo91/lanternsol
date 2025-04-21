@@ -3744,6 +3744,6 @@ details-disclosure > details {
   }
 }
 
-.banner__media .button.button--primary {
-  display: none !important;
+.banner__buttons .button.button--primary {
+  
 }
