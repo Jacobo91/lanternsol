@@ -526,6 +526,7 @@
 .value-props__image-wrapper {
   width: 42px;
   height: 48px;
+  display: flex;
 }
 
 .value-props__image-wrapper img {
