@@ -170,6 +170,15 @@
                   <img src="{{ block.settings.block_image_picker_2 | image_url: width: 800 }}">
                 </div>
               </div>
+              {%- when 'value_props' -%}
+              <div>
+                <div>
+                  <img src="{{ block.settings.image_1 }}">
+                </div>
+                <div>
+                  info
+                </div>
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
