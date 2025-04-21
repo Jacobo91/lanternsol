@@ -1412,6 +1412,7 @@ button.shopify-payment-button__button--unbranded {
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
   font-weight: 500;
+  font-family: 'Barlow';
 }
 
 .button--tertiary {
