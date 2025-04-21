@@ -517,10 +517,7 @@
 /* value props */
 
 .value-props-wrapper {
-  width: 115%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
+  display: none;
 }
 
 .value-prop-card {
@@ -553,4 +550,13 @@
 
 .value-props__info span:nth-of-type(2) {
   font-weight: 300;
+}
+
+@media screen and (min-width: 1440px) {
+  .value-props-wrapper {
+    width: 115%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+  }
 }
