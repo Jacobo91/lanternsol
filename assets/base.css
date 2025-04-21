@@ -3743,3 +3743,7 @@ details-disclosure > details {
     width: 83%;
   }
 }
+
+.banner__media .button.button--primary {
+  display: none !important;
+}
