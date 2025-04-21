@@ -1,0 +1,60 @@
+<div id="supplements-{{ section.id }}" class="supplements">
+
+    <div class="supplements__info">
+        <h2>{{ section.settings.title }}</h2>
+        <p>{{ section.settings.text }}</p>
+    </div>
+
+    <div class="supplements__products-grid">
+        {% if section.settings.product_list count == 4 %}
+            {% for product in section.settings.product_list %}
+                <span>{{ product.title }}</span>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <a href="{{ section.settings.button_link }}" class="button">
+        {{ section.settings.button_text }}
+    </a>
+
+</div>
+
+{% schema %}
+    {
+        "name": "supplements",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Supplements title"
+            },
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Supplements text"
+            },
+            {
+                "type": "product_list",
+                "id": "product_list",
+                "label": "Product list",
+                "info": "Select 4 products you want to display",
+                "limit": 4
+            },
+            {
+                "type": "url",
+                "id": "button_link",
+                "label": "Button link",
+            },
+            {
+                "type": "text",
+                "id": "button_text",
+                "label": "Button text",
+            }
+        ],
+        "presets": [
+            {
+                "name": "supplements"
+            }
+        ]
+    }
+{% endschema %}
