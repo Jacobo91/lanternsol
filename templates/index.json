@@ -12,8 +12,16 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "image_picker_hDYdzR": {
+          "type": "image_picker",
+          "settings": {
+            "block_image_picker_1": "shopify://shop_images/Fuel_Your_Health_1.png",
+            "block_image_picker_2": "shopify://shop_images/With_Precision_1.png"
+          }
+        },
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Browse our latest products",
             "heading_size": "h0"
@@ -32,6 +40,7 @@
         }
       },
       "block_order": [
+        "image_picker_hDYdzR",
         "heading",
         "button"
       ],
