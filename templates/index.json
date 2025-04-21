@@ -40,7 +40,11 @@
         },
         "value_props_Ab9NhR": {
           "type": "value_props",
-          "settings": {}
+          "settings": {
+            "image_1": "shopify://shop_images/molecular-structure_1.png",
+            "image_2": "shopify://shop_images/Group_24.png",
+            "image_3": "shopify://shop_images/ingredients_1_1.png"
+          }
         }
       },
       "block_order": [
