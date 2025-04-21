@@ -170,6 +170,35 @@
                   <img src="{{ block.settings.block_image_picker_2 | image_url: width: 800 }}">
                 </div>
               </div>
+              {%- when 'value_props' -%}
+              <div id="value-props">
+                <div>
+                  <div>
+                    <img src="{{ block.settings.image_1 | image_url: width: 800 }}">
+                  </div>
+                  <div>
+                    info
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <img src="{{ block.settings.image_2 | image_url: width: 800 }}">
+                  </div>
+                  <div>
+                    info
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <img src="{{ block.settings.image_3 | image_url: width: 800 }}">
+                  </div>
+                  <div>
+                    info
+                  </div>
+                </div>
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -509,6 +538,26 @@
           "type": "image_picker",
           "id": "block_image_picker_2",
           "label": "block image two"
+        }
+      ]
+    },
+    {
+      "type": "value_props",
+      "name": "value props",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "value prop img 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "value prop img 2"
+        },        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "value prop img 3"
         }
       ]
     }
