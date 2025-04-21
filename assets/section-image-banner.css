@@ -279,7 +279,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__content {
-    padding: 8rem 5rem 5rem 5rem;
+    padding: 5rem;
   }
 
   .banner__content--top-left {
@@ -325,6 +325,12 @@
   .banner__content--bottom-right {
     align-items: flex-end;
     justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner__content {
+    padding: 8rem 5rem 5rem 5rem;
   }
 }
 
