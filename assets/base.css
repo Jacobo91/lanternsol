@@ -3710,8 +3710,8 @@ details-disclosure > details {
   }
 }
 
-.banner__buttons .button.button--primary:after:hover {
+.banner__buttons .button.button--primary:hover {
   content: '';
-  background: rgba(233, 18, 138, 1);
+  background: rgba(233, 18, 138, 0);
   transform: scale(1);
 }
