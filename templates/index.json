@@ -42,8 +42,14 @@
           "type": "value_props",
           "settings": {
             "image_1": "shopify://shop_images/molecular-structure_1.png",
+            "heading_1": "High-Quality",
+            "text_1": "Science-Backed Formulas",
             "image_2": "shopify://shop_images/Group_24.png",
-            "image_3": "shopify://shop_images/ingredients_1_1.png"
+            "heading_2": "By healthcare providers",
+            "text_2": "Experts in cardiovascular health",
+            "image_3": "shopify://shop_images/ingredients_1_1.png",
+            "heading_3": "Premium Ingredients",
+            "text_3": "High Quality, Pure and Potent"
           }
         }
       },
