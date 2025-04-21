@@ -27,6 +27,17 @@
             "block_image_picker_2": "shopify://shop_images/With_Precision_1.png"
           }
         },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "Shop now",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
         "value_props_MBcpRp": {
           "type": "value_props",
           "settings": {
@@ -40,24 +51,13 @@
             "heading_3": "Premium Ingredients",
             "text_3": "High Quality, Pure and Potent"
           }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading",
         "image_picker_8MP4Ch",
-        "value_props_MBcpRp",
-        "button"
+        "button",
+        "value_props_MBcpRp"
       ],
       "settings": {
         "image": "shopify://shop_images/banner_img.jpg",
