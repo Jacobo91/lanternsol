@@ -160,6 +160,10 @@
                 </a>
               {%- endif -%}
             </div>
+            {% when 'image_picker' %}
+              <div>
+                <img src="{{ block.settings.image_picker }}">
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -484,13 +488,13 @@
           "default": false,
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         },
-        {
-          "type": "image_picker",
-          "id": "image_text",
-          "label": "image text"
-        }
       ]
-    }, 
+    },
+    {
+      "type": "image_picker",
+      "name": "image text",
+      "settings": []
+    }
   ],
   "presets": [
     {
