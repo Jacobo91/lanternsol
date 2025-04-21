@@ -541,5 +541,5 @@
 
 .value-props__info {
   display: grid;
-
+  justify-items: flex-start;
 }
