@@ -3711,7 +3711,8 @@ details-disclosure > details {
 }
 
 .banner__buttons .button.button--primary:hover .mask {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   background-color: red;
+  z-index: 100;
 }
