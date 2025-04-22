@@ -82,6 +82,7 @@
 .subscription-wrapper__btns {
     display: flex;
     gap: 10px;
+    text-transform: capitalize;
 }
 
 .atc-section form {
