@@ -289,7 +289,7 @@
         "text_aR4gjd": {
           "type": "text",
           "settings": {
-            "text": "<p>Take one (1) capsule daily with a meal, or as recommended by your healthcare provider, to ensure you are meeting your body’s daily needs for Vitamin D and K.</p><p>Ensure your bones, heart, and immune system are at their best with VitaLuxe Vitamin D3 + K1/K2, a comprehensive formula designed for optimal health and longevity.</p>",
+            "text": "<p>Take one (1) capsule daily with a meal, or as recommended by your healthcare provider, to &lt;br&gt; ensure you are meeting your body’s daily needs for Vitamin D and K.</p><p>Ensure your bones, heart, and immune system are at their best with VitaLuxe Vitamin D3 + K1/K2, a comprehensive formula designed for optimal health and longevity.</p>",
             "text_style": "body"
           }
         },
