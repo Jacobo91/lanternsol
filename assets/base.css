@@ -3850,6 +3850,8 @@ details-disclosure > details {
 }
 
 /* blog */
+
+/* blog row media */
 .image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media {
   width: 305px;
   padding-bottom: 0 !important;
