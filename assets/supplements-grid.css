@@ -34,7 +34,7 @@
 
 .my-grid__item {
     list-style: none;
-    justify-self: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
 }
