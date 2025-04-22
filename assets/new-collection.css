@@ -38,6 +38,7 @@
 
 .purchase-options {
     display: flex;
+    justify-content: space-between;
 }
 
 .purchase-options label {
