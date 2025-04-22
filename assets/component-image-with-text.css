@@ -471,6 +471,14 @@
   background: rgba(235, 235, 235, 1);
 }
 
+.image-with-text__text.image-with-text__text--caption.subtitle.subtitle--small.subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+
 /* image with text */
 @media screen and (min-width: 1440px) {
   #ImageWithText--template--24453778112828__image_with_text_rCPkmi {
