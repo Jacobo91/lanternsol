@@ -84,7 +84,7 @@
         grid-row: 1;
     }
     .text-wrapper {
-       
+       grid-row: 1;
     }
     .info {
         flex-basis: 73%;
