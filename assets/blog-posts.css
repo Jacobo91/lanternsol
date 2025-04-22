@@ -32,7 +32,7 @@
     letter-spacing: 0.45px;
   }
 
-  .info {
+  .info > * {
     font-family: 'Barlow';
   }
   
