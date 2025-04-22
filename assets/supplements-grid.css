@@ -32,7 +32,12 @@
     margin: 7px 0 5px 0;
 }
 
-.my-grid__item-info .description {}
+.my-grid__item-info .description {
+    font-family: 'Barlow';
+    font-size: 10px;
+    font-weight: 400;
+    margin: 5px 0 18px 0;
+}
 
 @media screen and (min-width: 750px) {
     .my-grid__item-info .title {
