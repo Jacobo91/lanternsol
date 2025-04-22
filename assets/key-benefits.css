@@ -1,0 +1,18 @@
+.key-benefits-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: space between items */
+}
+
+.kb-card {
+    flex: 1 1 calc(50% - 10px); /* 2 items per row with 10px gap between them */
+    max-width: calc(50% - 10px); /* Ensures no overflow */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .kb-card {
+        flex: 1 1 100%; /* Stack items on smaller screens */
+        max-width: 100%;
+    }
+}
