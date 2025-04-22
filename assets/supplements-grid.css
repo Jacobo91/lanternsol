@@ -44,4 +44,8 @@
         font-size: 16px;
     }
 
+    .my-grid__item-info .description p {
+        font-size: 14px;
+    }
+
 }
