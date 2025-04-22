@@ -1,0 +1,55 @@
+{{ 'key-benefits.css' | asset_url | stylesheet_tag }}
+<div id="key-benefits" class="key-benefits-wrapper">
+    <h3>{{ section.settings.title }}</h3>
+    <div class="key-benefits-gallery">
+        <div class="kb-card">
+            <div>
+                <img src="{{ section.setting.image | image_url: width: 800 }}">
+            </div>
+            <h4>{{ section.setting.card_title }}</h4>
+            <p>{{ section.settings.card_text }}</p>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "key benefits",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "section title",
+            }
+        ],
+        "blocks": [
+            {
+                "type": "kb-card",
+                "name": "kb-card",
+                "limit": 4,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "image one"
+                    },
+                    {
+                        "type": "text",
+                        "id": "card_title",
+                        "label": "card one title",
+                    },
+                    {
+                        "type": "text",
+                        "id": "card_text",
+                        "label": "card one text",
+                    },
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "key benefits"
+            }
+        ]
+    }
+{% endschema %}
