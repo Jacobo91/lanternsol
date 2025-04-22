@@ -4,6 +4,16 @@
         <div class="img-wrapper pdp">
             <img src="{{ product.featured_image | image_url: width: 800 }}">
         </div>
+        <div class="new-collection-card__value-props">
+            <span class="title">{{ section.settings.value_props_title }}</span>
+            <div class="value-props__img-wrapper">
+                {% for block in section.blocks %}                    
+                    <div class="value-prop">
+                        <img src="{{ section.blocks.settings.value_prop_image | image_url: width: 70 }}">
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
     </a>
 
     <div class="product-info">
@@ -67,7 +77,26 @@
 {% schema %}
     {
         "name": "new product",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "id": "value_props_title",
+                "label": "Value props title",
+            },
+        ],
+        "blocks": [
+            {
+                "type": "value-prop",
+                "name": "value prop",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "value_prop_image",
+                        "label": "Value prop image"
+                    },
+                ]
+            }
+        ],
         "presets": [
             {
                 "name": "new product"
