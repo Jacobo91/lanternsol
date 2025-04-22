@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.new-collection-card:nth-child(even) {
+    
+}
+
 .new-collection-card .img-wrapper {
     max-width: 305px;
 }
