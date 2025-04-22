@@ -46,13 +46,13 @@
           "settings": {
             "image_1": "shopify://shop_images/molecular-structure_1_945717a0-1c2c-441e-a5bb-964bb886805a.png",
             "heading_1": "High-Quality",
-            "text_1": "Science-Backed Formulas",
+            "text_1": "Science-Backed <br> Formulas",
             "image_2": "shopify://shop_images/Group_24_cbf451fd-918e-4733-b64b-9b116c4ead77.png",
             "heading_2": "healthcare providers",
-            "text_2": "Experts in cardiovascular health",
+            "text_2": "Experts in <br> cardiovascular health",
             "image_3": "shopify://shop_images/ingredients_1_1_0939294d-bcdc-4f0b-b4d2-0250366a47b0.png",
             "heading_3": "Premium Ingredients",
-            "text_3": "High Quality, Pure and Potent"
+            "text_3": "High Quality, Pure <br> and Potent"
           }
         },
         "buttons_k8i4Gb": {
