@@ -17,8 +17,8 @@
 }
 
 .my-grid__item-img-wrapper {
-    width: 285px;
-    height: 323px;
+    max-width: 285px;
+    max-height: 323px;
 }
 
 .my-grid__item-img-wrapper img {
