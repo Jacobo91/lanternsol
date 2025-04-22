@@ -24,5 +24,5 @@ if (heading2) {
     return word;
   });
 
-  heading.innerHTML = limitedBreaks.join(' ');
+  heading2.innerHTML = limitedBreaks.join(' ');
 }
