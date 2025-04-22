@@ -81,6 +81,10 @@
         display: flex;
         padding-right: 100px;
         column-gap: 52px;
+        grid-area: 'content';
+    }
+    .text-wrapper {
+        grid-area: 'text-wrapper';
     }
     .info {
         flex-basis: 73%;
