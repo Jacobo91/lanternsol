@@ -80,6 +80,10 @@
         padding: 0px;
     }
 
+    .supplements__info h2 {
+        font-size: 70px;
+    }
+
     .supplements__products-grid {
         margin-bottom: 70px;
     }
