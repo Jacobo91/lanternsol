@@ -581,3 +581,9 @@
 #Banner-template--24453778145596__image_banner_FFaxng .value-props-wrapper {
   max-width: 600px;
 }
+
+#Banner-template--24453778145596__image_banner_FFaxng .value-prop-card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
