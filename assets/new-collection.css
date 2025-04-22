@@ -99,6 +99,7 @@
 
 .atc-section form .quantity-wrapper button {
     border: none;
+    background: transparent;
 }
 
 .atc-section form input[name="quantity"] {
