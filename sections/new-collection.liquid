@@ -5,9 +5,11 @@
     {% assign collection = collections[collection_handle] %}
     {% for product in collection.products %}
         <div class="new-collection-card">
-            <div class="img-wrapper">
-                <img src="{{ product.featured_image | image_url: width: 800 }}">
-            </div>
+            <a href="{{ product.url }}">
+                <div class="img-wrapper">
+                    <img src="{{ product.featured_image | image_url: width: 800 }}">
+                </div>
+            </a>
 
             <div class="product-info">
                 <div class="title-and-price">
