@@ -3854,6 +3854,7 @@ details-disclosure > details {
 /* border */
 .image-with-text__grid.grid.grid--gapless.grid--1-col.grid--2-col-tablet {
   border: 1px solid #E9128A;
+  border-radius: 30px;
 }
 
 /* blog row media */
