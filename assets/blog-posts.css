@@ -43,7 +43,10 @@
         line-height: 160%;
     }
     .title {
-
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 90%;
+        text-transform: uppercase;
     }
     .text {
         margin: 0;
