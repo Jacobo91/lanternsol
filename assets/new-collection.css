@@ -17,7 +17,8 @@
     border: 1px solid #E9128A;
     border-radius: 20px;
     padding: 11px 25px;
-    text-wrap: nowrap
+    text-wrap: nowrap;
+    text-transform: capitalize;
 }
 
 .new-collection-card .atc-section button {
@@ -88,6 +89,20 @@
     display: flex;
     justify-content: space-between;
 }
+
+.atc-section form input[name="quantity"] {
+    border: 1px solid #E9128A;
+    border-radius: 20px;
+    max-width: 106px;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.atc-section form input[name="quantity"]:focus {
+    outline: none;
+    box-shadow: none;
+  }  
 
 @media screen and (min-width: 1440px) {
     .new-collection-card {
