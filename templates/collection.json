@@ -21,17 +21,23 @@
     "image_banner_FFaxng": {
       "type": "image-banner",
       "blocks": {
+        "logo_tRxVz8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Vitaluxe-logo.png"
+          }
+        },
         "heading_dXEqrr": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Crafted Suplements",
+            "heading_size": "hxl"
           }
         },
         "text_AaWQnX": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "VitaLuxe supplements are crafted with your future in mind—formulated by experts, rooted in science, and designed to work as hard as you do. Because your health deserves nothing less.",
             "text_style": "body"
           }
         },
@@ -49,6 +55,7 @@
         }
       },
       "block_order": [
+        "logo_tRxVz8",
         "heading_dXEqrr",
         "text_AaWQnX",
         "buttons_k8i4Gb"
