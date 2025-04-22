@@ -3,6 +3,7 @@
     text-align: center;
     max-width: 650px;
     margin: 0 auto;
+    padding: 40px;
 }
 
 .grid-layout {
@@ -40,13 +41,11 @@
     margin: 5px 0 18px 0;
 }
 
-@media screen and (max-width: 500px) {
-    .supplements {
-        padding: 40px;
-    }
-}
-
 @media screen and (min-width: 750px) {
+    .supplements {
+        padding: 0px;
+    }
+
     .my-grid__item-info .title {
         font-size: 16px;
     }
