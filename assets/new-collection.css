@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     margin-inline: 240px;
     gap: 200px;
+    align-items: center;
 }
 
 .new-collection-card .img-wrapper {
