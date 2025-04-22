@@ -87,6 +87,8 @@
 .atc-section form {
     display: flex;
     justify-content: space-between;
+    border: 1px solid #E9128A;
+    border-radius: 20px;
 }
 
 @media screen and (min-width: 1440px) {
