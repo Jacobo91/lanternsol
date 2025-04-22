@@ -579,5 +579,5 @@
 }
 
 #Banner-template--24453778145596__image_banner_FFaxng .value-props-wrapper {
-  width: 50%;
+  max-width: 600px;
 }
