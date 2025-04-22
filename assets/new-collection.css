@@ -158,6 +158,7 @@
     direction: ltr;
     padding-top: 32px;
     padding-bottom: 88px;
+    height: auto;
 }
 
 .new-collection-card .img-wrapper.pdp {
