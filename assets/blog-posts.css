@@ -73,6 +73,7 @@
         width: 437px;
         height: 245px;
         grid-area: 'image';
+       
     }
     .post-img-wrapper img {
         width: 305px;
@@ -81,10 +82,9 @@
         display: flex;
         padding-right: 100px;
         column-gap: 52px;
-        grid-area: 'content';
     }
     .text-wrapper {
-        grid-area: 'text-wrapper';
+       
     }
     .info {
         flex-basis: 73%;
