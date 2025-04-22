@@ -82,6 +82,8 @@
 .subscription-wrapper__btns {
     display: flex;
     gap: 10px;
+}
+.subscription-wrapper__btns button {
     text-transform: capitalize;
 }
 
