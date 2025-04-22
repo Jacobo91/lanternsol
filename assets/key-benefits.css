@@ -52,6 +52,7 @@ p {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    /* align-self: center; */
 }
 
 @media (max-width: 768px) {
