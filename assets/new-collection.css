@@ -175,6 +175,15 @@
 }
 
 /* value props */
+
+.new-collection-card__value-props .title {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
 .value-props__img-wrapper {
     display: flex;
     gap: 20px;
