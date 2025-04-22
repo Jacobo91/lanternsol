@@ -16,6 +16,10 @@
     font-weight: 400;
 }
 
+.new-collection-card .atc-section button {
+    font-weight: 500;
+}
+
 .new-collection-card:nth-child(even) {
     direction: rtl;
 }
