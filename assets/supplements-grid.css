@@ -2,10 +2,18 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
 }
+
 .my-grid__item {
     list-style: none;
 }
+
 .my-grid__item-img-wrapper {
     width: 285px;
     height: 323px;
+}
+
+.my-grid__item-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
