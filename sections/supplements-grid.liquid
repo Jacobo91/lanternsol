@@ -15,7 +15,7 @@
             >
                 {% for product in section.settings.product_list %}
                     <li class="my-grid__item">
-                        <div>
+                        <div class="my-grid__item-img-wrapper">
                             <img src="{{ product.featured_image | image_url: width: 800 }}">
                         </div>
                     </li>
