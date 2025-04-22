@@ -156,8 +156,8 @@
         "button_FqKiVm": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "GET A SUBSCRIPTION",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
