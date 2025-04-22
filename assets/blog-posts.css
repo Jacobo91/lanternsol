@@ -35,4 +35,7 @@
         width: 437px;
         height: 245px;
     }
+    .post-content {
+        display: flex;
+    }
 }
