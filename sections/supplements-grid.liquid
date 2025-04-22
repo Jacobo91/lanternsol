@@ -24,10 +24,8 @@
                             <span class="price">{{ product.price | money }}</span>
                         </div>
                         {% form 'product', product%}
-                            <a type="submit" value="ADD TO CART" class="button button--primary">
-
-                                <span class="mask"></span>
-                            </a>
+                            <input type="submit" value="ADD TO CART" class="button button--primary">
+                            <span class="mask"></span>
                         {% endform %}
                     </li>
                 {% endfor %}
