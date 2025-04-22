@@ -1,0 +1,11 @@
+{{ 'key-benefits.css' | asset_url | stylesheet_tag }}
+<div id="key-benefits" class="key-benefits-wrapper">
+    <h3>{{ section.settings.title }}</h3>
+    <div class="key-benefits-gallery">
+        <div class="kb-card">
+            <div>
+                <img src="{{ section.setting.image_1 | image_url: width: 800 }}">
+            </div>
+        </div>
+    </div>
+</div>
