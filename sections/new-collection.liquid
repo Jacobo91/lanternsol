@@ -1,7 +1,7 @@
 <div id="new-collection">
     {% for product in collection.products %}
-        <div class="new-collection">
-            <div class="new-collection__card">
+        <div class="new-collection-card">
+            <div class="img-wrapper">
                 <img src="{{ product.featured_image | image_url: width: 800 }}">
             </div>
 
