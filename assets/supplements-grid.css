@@ -28,7 +28,9 @@
     object-fit: cover;
 }
 
-.my-grid__item-info {
+.my-grid__item-info .title,
+.my-grid__item-info .description p,
+.my-grid__item-info .price {
     color: #292126 !important;
 }
 
