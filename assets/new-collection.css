@@ -176,6 +176,10 @@
 
 /* value props */
 
+.new-collection-card.pdp a {
+    text-decoration: none;
+}
+
 .new-collection-card__value-props .title {
     font-family: 'Barlow';
     font-weight: 700;
