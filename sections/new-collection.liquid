@@ -1,0 +1,48 @@
+<div id="new-collection">
+    {% for product in collection.products %}
+        <div class="new-collection-card">
+            <div class="img-wrapper">
+                <img src="{{ product.featured_image | image_url: width: 800 }}">
+            </div>
+
+            <div>
+                <div class="title-and-price">
+                    <span>{{ product.title }}</span> 
+                    <span>{{ product.price | money }}</span>
+                </div>
+                <p>{{ product.description }}</p>
+                <div class="purchase-options">
+                    <div class="one-time">
+                        <button>
+                            one time
+                        </button>
+                    </div>
+                    
+                    <div class="subscription-btns">
+                        <button>
+                            1 month
+                        </button>
+                        <button>
+                            3 months
+                        </button>
+                    </div>
+                </div>
+                <div class="atc-section">
+                    {% render 'buy-buttons', product: product %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+        "name": "new collection",
+        "settings": [],
+        "presets": [
+            {
+                "name": "new collection"
+            }
+        ]
+    }
+{% endschema %}
