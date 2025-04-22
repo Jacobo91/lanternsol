@@ -439,6 +439,9 @@
 
 /* image with text */
 @media screen and (min-width: 1440px) {
+  #ImageWithText--template--24453778112828__image_with_text_rCPkmi {
+    padding: 96px 70px 96px 70px;
+  }
   #ImageWithText--template--24453778112828__image_with_text_Qx8FYq {
     padding: 100px 48px 100px 200px;
   }
