@@ -552,7 +552,7 @@
   font-weight: 300;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   .value-props-wrapper {
     width: 115%;
     display: flex;
