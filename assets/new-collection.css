@@ -39,6 +39,10 @@
     direction: ltr;
 }
 
+.new-collection-card.pdp {
+    direction: ltr;
+}
+
 .new-collection-card .img-wrapper {
     max-width: 305px;
 }
