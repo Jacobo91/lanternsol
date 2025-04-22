@@ -26,6 +26,7 @@
 }
 
 .my-grid__item-info .title {
+    font-family: 'Barlow';
     font-size: 14px;
     font-weight: bold;
 }
