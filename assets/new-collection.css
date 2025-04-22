@@ -39,10 +39,6 @@
     direction: ltr;
 }
 
-.new-collection-card.pdp {
-    direction: ltr;
-}
-
 .new-collection-card .img-wrapper {
     max-width: 305px;
 }
@@ -135,4 +131,9 @@
         gap: 110px;
         height: 495px;
     }
+}
+
+/* new collection card on pdps */
+.new-collection-card.pdp {
+    direction: ltr;
 }
