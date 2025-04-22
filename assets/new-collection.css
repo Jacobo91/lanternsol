@@ -17,6 +17,7 @@
     border: 1px solid #E9128A;
     border-radius: 20px;
     padding: 11px 25px;
+    text-wrap: nowrap
 }
 
 .new-collection-card .atc-section button {
