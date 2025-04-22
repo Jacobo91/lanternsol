@@ -72,8 +72,6 @@
     .post-img-wrapper {
         width: 437px;
         height: 245px;
-        grid-area: 'image';
-       
     }
     .post-img-wrapper img {
         width: 305px;
