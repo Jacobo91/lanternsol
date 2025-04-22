@@ -1,4 +1,5 @@
 const heading = document.querySelector('.image-with-text__heading.inline-richtext.h1.template--24453778112828__image_with_text_8Hiw8j');
+const heading2 = document.querySelector('.image-with-text__heading.inline-richtext.h1.template--24453778145596__image_with_text_tFmyhT');
 
 if (heading) {
   const words = heading.textContent.trim().split(/\s+/); // Split on whitespace
