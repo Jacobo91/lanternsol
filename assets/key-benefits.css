@@ -27,9 +27,8 @@ p {
     font-size: 20px;
     line-height: 160%;
     letter-spacing: 0%;
-    margin-bottom: 0;
+    margin-bottom: auto;
     color: rgba(0, 0, 0, 1);
-    margin-top: auto;
 }
 
 .key-benefits-gallery {
