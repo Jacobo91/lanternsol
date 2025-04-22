@@ -52,12 +52,11 @@ p {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* align-self: center; */
 }
 
 @media (max-width: 768px) {
     .kb-card {
-        flex: 1 1 100%; /* Stack items on smaller screens */
+        flex: 1 1 100%;
         max-width: 100%;
     }
 }
