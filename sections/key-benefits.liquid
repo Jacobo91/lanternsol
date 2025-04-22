@@ -3,14 +3,12 @@
     <h3>{{ section.settings.title }}</h3>
     <div class="key-benefits-gallery">
         {% for block in section.blocks %}            
-            <div class="kb-card">
+            < class="kb-card">
                 <div>
                     <img src="{{ block.settings.image | image_url: width: 800 }}">
                 </div>
-                <div class="kb-info">
-                    <h4>{{ block.settings.card_title }}</h4>
-                    <p>{{ block.settings.card_text }}</p>
-                </div>
+                <h4>{{ block.settings.card_title }}</h4>
+                <p>{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
     </div>
