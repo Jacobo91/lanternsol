@@ -1,8 +1,18 @@
 {{ 'new-collection.css' | asset_url | stylesheet_tag }}
 
 <div id="new-collection">
-    {% assign products = collection.products | reverse %}
-    {% for product in products %}
+    {% assign desired_order = "Vitamin D3 + K1/K2|Methylation|Omega Krill Oil|Magnesium" | split: "|" %}
+    {% assign ordered_products = "" | split: "" %}
+
+    {% for title in desired_order %}
+    {% for product in collection.products %}
+        {% if product.title == title %}
+        {% assign ordered_products = ordered_products | push: product %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+    {% for product in ordered_products %}
         <div class="new-collection-card">
             <div class="img-wrapper">
                 <img src="{{ product.featured_image | image_url: width: 800 }}">
