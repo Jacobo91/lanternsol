@@ -40,37 +40,27 @@
                 <div class="atc-section">
                     <form method="post" action="/cart/add">
                         <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-
-                        <form method="post" action="/cart/add">
-                            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                      
+                        <div class="quantity-wrapper">
+                          <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
                           
-                            <div class="quantity-wrapper">
-                              <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
-                              
-                              <input 
-                                type="number" 
-                                name="quantity" 
-                                min="1" 
-                                value="1" 
-                                class="input-quantity" 
-                                aria-label="Quantity"
-                              >
-                          
-                              <button type="button" class="qty-btn qty-plus" aria-label="Increase quantity">+</button>
-                            </div>
-                          
-                            <button type="submit" class="btn btn--add-to-cart button button--primary">
-                              add to cart
-                              <span class="mask"></span>
-                            </button>
-                          </form>
-                          
-
+                          <input 
+                            type="number" 
+                            name="quantity" 
+                            min="1" 
+                            value="1" 
+                            class="input-quantity" 
+                            aria-label="Quantity"
+                          >
+                      
+                          <button type="button" class="qty-btn qty-plus" aria-label="Increase quantity">+</button>
+                        </div>
+                      
                         <button type="submit" class="btn btn--add-to-cart button button--primary">
-                            add to cart
-                            <span class="mask"></span>
+                          add to cart
+                          <span class="mask"></span>
                         </button>
-                    </form>
+                      </form>
                 </div>
             </div>
         </div>
