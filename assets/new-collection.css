@@ -20,6 +20,11 @@
     object-fit: cover;
 }
 
+.title-and-price {
+    display: flex;
+    justify-content: space-between;
+}
+
 .purchase-options {
     display: flex;
 }
