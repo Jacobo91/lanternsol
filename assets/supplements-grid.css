@@ -5,3 +5,7 @@
 .my-grid__item {
     list-style: none;
 }
+.my-grid__item-img-wrapper {
+    width: 285px;
+    height: 323px;
+}
