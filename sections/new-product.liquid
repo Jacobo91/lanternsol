@@ -1,0 +1,64 @@
+<div class="new-collection-card">
+    <a href="{{ product.url }}">
+        <div class="img-wrapper">
+            <img src="{{ product.featured_image | image_url: width: 800 }}">
+        </div>
+    </a>
+
+    <div class="product-info">
+        <div class="title-and-price">
+            <span>{{ product.title }}</span> 
+            <span>{{ product.price | money }}</span>
+        </div>
+        <p class="product-description">
+            {{ product.description | strip_html }}
+        </p>
+        <div class="purchase-options">
+            <div class="one-time">
+                <label>purchase option</label>
+                <div class="one-time__btn">
+                    <button>
+                        one time
+                    </button>
+                </div>
+            </div>
+            
+            <div class="subscription-wrapper">
+                <label>subscribe and save!</label>
+                <div class="subscription-wrapper__btns">
+                    <button>
+                        1 month
+                    </button>
+                    <button>
+                        3 months
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="atc-section">
+            <form method="post" action="/cart/add">
+                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+              
+                <div class="quantity-wrapper">
+                  <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
+                  
+                  <input 
+                    type="number" 
+                    name="quantity" 
+                    min="1" 
+                    value="1" 
+                    class="input-quantity" 
+                    aria-label="Quantity"
+                  >
+              
+                  <button type="button" class="qty-btn qty-plus" name="plus" aria-label="Increase quantity">+</button>
+                </div>
+              
+                <button type="submit" class="btn btn--add-to-cart button button--primary">
+                  add to cart
+                  <span class="mask"></span>
+                </button>
+              </form>
+        </div>
+    </div>
+</div>
