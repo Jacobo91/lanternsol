@@ -185,6 +185,7 @@
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 
 .value-props__img-wrapper {
