@@ -67,11 +67,12 @@
     margin: 7px 0 5px 0;
 }
 
-.my-grid__item-info .description p {
+.my-grid__item-info .description {
     font-family: 'Barlow';
     font-size: 10px;
     font-weight: 400;
     margin: 5px 0 18px 0;
+    display: block;
 }
 
 .my-grid__item-info .price {
@@ -113,7 +114,7 @@
         font-size: 16px;
     }
 
-    .my-grid__item-info .description p {
+    .my-grid__item-info .description{
         font-size: 14px;
     }
 
