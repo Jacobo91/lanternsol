@@ -104,12 +104,48 @@
             "post_url": "",
             "link_label": "READ NOW"
           }
+        },
+        "post_9mcAWJ": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog4.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "5 Signs You’re Not Getting Enough Vitamin K2",
+            "post_text": "Vitamin K2 plays a crucial role in heart and bone health, yet it’s often overlooked. Learn the signs of deficiency and how to incorporate more K2 into your diet.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
+        },
+        "post_nHDetK": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog5.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "Sunlight, Vitamin D, and Mental Health",
+            "post_text": "Did you know that Vitamin D has a powerful impact on mood and mental well-being? This article dives into the link between sunlight exposure, Vitamin D levels, and emotional health.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
+        },
+        "post_jPMeWr": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog6.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "Understanding Supplement Labels: What to Look For and What to Avoid",
+            "post_text": "With so many supplement options on the market, it can be confusing to choose the right one. Learn how to read labels effectively to ensure you're choosing safe, high-quality products.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
         }
       },
       "block_order": [
         "post_dReiLw",
         "post_P9baCe",
-        "post_nVMBcU"
+        "post_nVMBcU",
+        "post_9mcAWJ",
+        "post_nHDetK",
+        "post_jPMeWr"
       ],
       "settings": {}
     }
