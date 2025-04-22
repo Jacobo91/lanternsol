@@ -39,6 +39,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 20px;
 }
 
 .value-prop__card p {
