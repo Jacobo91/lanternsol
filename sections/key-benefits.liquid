@@ -3,7 +3,7 @@
     <h3>{{ section.settings.title }}</h3>
     <div class="key-benefits-gallery">
         {% for block in section.blocks %}            
-            < class="kb-card">
+            <div class="kb-card">
                 <div>
                     <img src="{{ block.settings.image | image_url: width: 800 }}">
                 </div>
