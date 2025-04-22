@@ -3736,6 +3736,7 @@ details-disclosure > details {
 .button.button--primary {
   position: relative;
   overflow: hidden;
+  background: #E9128A;
 }
 
 .button.button--primary .mask {
