@@ -1,5 +1,5 @@
 #posts-flex {
-    padding: 77px 20px 80px 20px;
+    padding: 40px 20px 60px 20px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -17,6 +17,9 @@
 }
 
 @media screen and (min-width: 750px) {
+    #posts-flex {
+        padding: 77px 20px 80px 20px;
+    }
     .post-wrapper {
         display: flex;
         flex-direction: row;
