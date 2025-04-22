@@ -178,3 +178,8 @@
 .value-prop {
     width: 70px;
 }
+.value-prop img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
