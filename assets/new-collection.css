@@ -186,6 +186,7 @@
     text-decoration: none;
     text-align: center;
     display: block;
+    margin: 0 0 3px 0;
 }
 
 .value-props__img-wrapper {
