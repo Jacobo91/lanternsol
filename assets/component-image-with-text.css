@@ -424,3 +424,6 @@
   font-weight: bold;
 }
 
+.image-with-text__text.rte.body p {
+  font-family: 'Barlow';
+}
