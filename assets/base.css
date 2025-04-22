@@ -3859,7 +3859,7 @@ details-disclosure > details {
 
 /* blog row media */
 #shopify-section-template--24453778014524__multirow_BHc4z4 .image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media {
-  width: 305px;
+  /* width: 305px; */
   padding-bottom: 0 !important;
   border-radius: 30px;
 }
