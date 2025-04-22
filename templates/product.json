@@ -157,10 +157,19 @@
             "card_title": "upports Bone and Heart Health",
             "card_text": "Vitamin D3 helps maintain strong bones and teeth by enhancing calcium absorption, while Vitamin K2 ensures that calcium is directed safely into bones and away from arteries, promoting cardiovascular health.*"
           }
+        },
+        "kb_card_exXUhc": {
+          "type": "kb-card",
+          "settings": {
+            "image": "shopify://shop_images/8188937_2123_3.png",
+            "card_title": "Healthy Artery Function",
+            "card_text": "Vitamin K2 plays a vital role in regulating calcium in the bloodstream, supporting healthy arteries and preventing calcification, which is critical for maintaining a healthy heart.*"
+          }
         }
       },
       "block_order": [
-        "kb_card_wPxgUe"
+        "kb_card_wPxgUe",
+        "kb_card_exXUhc"
       ],
       "settings": {
         "title": "KEY BENEFITS"
