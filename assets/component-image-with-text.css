@@ -426,4 +426,5 @@
 
 .image-with-text__text.rte.body p {
   font-family: 'Barlow';
+  font-size: clamp(16px, 5vw, 20px);;
 }
