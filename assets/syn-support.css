@@ -1,4 +1,8 @@
 #syn-support {
     background: rgba(0, 0, 0, 1);
+}
+
+#syn-support h2,
+#syn-support p {
     color: #fff;
 }
