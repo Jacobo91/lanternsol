@@ -175,7 +175,7 @@
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "right",
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
