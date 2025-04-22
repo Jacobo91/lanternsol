@@ -10,6 +10,6 @@ if (heading) {
     return word;
   });
 
-  console.log(limitedBreaks);
+  console.log(limitedBreaks.join(' '));
   heading.innerHTML = limitedBreaks.join(' ');
 }
