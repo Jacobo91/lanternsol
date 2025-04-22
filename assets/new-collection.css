@@ -11,7 +11,7 @@
     font-family: 'Barlow';
 }
 
-@media screen and (min-width: 1054px) {
+@media screen and (min-width: 1440px) {
     .new-collection-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
