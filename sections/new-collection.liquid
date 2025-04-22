@@ -13,7 +13,7 @@
                     <span>{{ product.price | money }}</span>
                 </div>
                 <p class="product-description">
-                    {{ product.description | escape }}
+                    {{ product.description | strip_html }}
                 </p>
                 <div class="purchase-options">
                     <div class="one-time">
