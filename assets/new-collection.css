@@ -84,6 +84,11 @@
     gap: 10px;
 }
 
+.atc-section form {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1440px) {
     .new-collection-card {
         gap: 110px;
