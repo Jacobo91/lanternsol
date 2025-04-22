@@ -3859,7 +3859,7 @@ details-disclosure > details {
 
 .image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media img {
   width: 100%;
-  height: auto;
+  height: -webkit-fill-available;
   object-fit: cover;
 }
 /* block row info */
