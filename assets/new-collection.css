@@ -18,6 +18,7 @@
 
 .new-collection-card .atc-section button {
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 .new-collection-card:nth-child(even) {
