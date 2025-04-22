@@ -58,6 +58,12 @@
     #posts-flex {
         padding: 77px 20px 80px 20px;
     }
+    /* .post-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 58px;
+        border: 1px solid rgba(233, 18, 138, 1);
+    } */
     .post-wrapper {
         display: flex;
         flex-direction: row;
