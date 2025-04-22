@@ -20,6 +20,12 @@
     width: 305px;
 }
 
+.post-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 750px) {
     #posts-flex {
         padding: 77px 20px 80px 20px;
