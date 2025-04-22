@@ -1,0 +1,57 @@
+h3 {
+    text-align: center;
+    margin: 0 0 48px 0;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+}
+
+h4 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin: 19px 0 15px 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+    text-wrap: balance;
+}
+
+.key-benefits-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.kb-card {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .kb-card {
+        flex: 1 1 100%; /* Stack items on smaller screens */
+        max-width: 100%;
+    }
+}
