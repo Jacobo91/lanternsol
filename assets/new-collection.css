@@ -26,7 +26,7 @@
 }
 
 .new-collection-card:nth-child(even) {
-    direction: rtl;
+    direction:ltr;
 }
 
 .new-collection-card .img-wrapper {
