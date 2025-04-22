@@ -93,6 +93,9 @@
     border: 1px solid #E9128A;
     border-radius: 20px;
     max-width: 106px;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 1440px) {
