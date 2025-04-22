@@ -32,8 +32,8 @@
     letter-spacing: 0.45px;
   }
   
-@media screen and (min-width: 1054) {
-    .ellipsis-2-lines {
+@media screen and (min-width: 1054px) {
+    .text {
         margin: 0;
       }
     #posts-flex {
