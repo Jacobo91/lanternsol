@@ -155,7 +155,7 @@
           "settings": {
             "image": "shopify://shop_images/8188937_2123_1.png",
             "card_title": "supports Bone and Heart Health",
-            "card_text": "Vitamin D3 helps maintain strong bones and teeth by enhancing calcium absorption, while Vitamin K2 ensures that calcium is directed safely into bones and away from arteries, promoting cardiovascular health.*"
+            "card_text": "Vitamin D3 helps maintain strong <br> bones and teeth by enhancing calcium <br> absorption, while Vitamin K2 ensures <br>that calcium is directed safely into <br>bones and away from arteries, <br>promoting cardiovascular health.*"
           }
         },
         "kb_card_exXUhc": {
