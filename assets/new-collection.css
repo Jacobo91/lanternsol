@@ -173,3 +173,8 @@
     justify-content: space-between;
     gap: 25px;
 }
+
+/* value props */
+.value-prop {
+    width: 70px;
+}
