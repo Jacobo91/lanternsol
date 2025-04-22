@@ -1,5 +1,32 @@
 <div id="new-collection">
+    {% for product in collection.products %}
+        <div class="new-collection">
+            <div class="new-collection__card">
+                <img src="{{ product.featured_image | image_url: width: 800 }}">
+            </div>
 
+            <div>
+                <span></span>
+                <p></p>
+                <div class="purchase-options">
+                    <div class="one-time">
+                        <button>
+                            one time
+                        </button>
+                    </div>
+                    
+                    <div class="subscription">
+                        <button>
+                            1 month
+                        </button>
+                        <button>
+                            3 months
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 </div>
 
 {% schema %}
