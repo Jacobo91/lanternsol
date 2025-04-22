@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-inline: 240px;
-    gap: 200px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -14,4 +14,10 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+@media screen and (min-width: 1440px) {
+    .new-collection-card {
+        gap: 200px;
+    }
 }
