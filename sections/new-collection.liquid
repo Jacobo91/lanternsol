@@ -17,7 +17,7 @@
                     <span>{{ product.price | money }}</span>
                 </div>
                 <p class="product-description">
-                    {{ product.description | strip_html }}
+                    {{ product.metafields.custom.grid_text }}
                 </p>
                 <div class="purchase-options">
                     <div class="one-time">
