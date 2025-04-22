@@ -177,6 +177,7 @@
 /* value props */
 .value-prop {
     width: 70px;
+    height: 70px;
 }
 .value-prop img{
     width: 100%;
