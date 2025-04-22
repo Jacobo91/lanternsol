@@ -13,3 +13,11 @@ p {
     color: #fff;
     font-family: 'Barlow';
 }
+
+h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
