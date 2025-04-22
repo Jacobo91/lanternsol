@@ -1,7 +1,8 @@
 {{ 'new-collection.css' | asset_url | stylesheet_tag }}
 
 <div id="new-collection">
-    {% for product in collection.products %}
+    {% assign products = collection.products | reverse %}
+    {% for product in products %}
         <div class="new-collection-card">
             <div class="img-wrapper">
                 <img src="{{ product.featured_image | image_url: width: 800 }}">
