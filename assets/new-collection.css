@@ -17,7 +17,8 @@
     border: 1px solid #E9128A;
     border-radius: 20px;
     padding: 11px 25px;
-    text-wrap: nowrap
+    text-wrap: nowrap;
+    text-transform: capitalize;
 }
 
 .new-collection-card .atc-section button {
@@ -82,9 +83,6 @@
 .subscription-wrapper__btns {
     display: flex;
     gap: 10px;
-}
-.subscription-wrapper__btns button {
-    text-transform: capitalize;
 }
 
 .atc-section form {
