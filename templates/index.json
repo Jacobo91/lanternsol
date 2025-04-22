@@ -85,7 +85,8 @@
           "omega-krill-oil-2"
         ],
         "button_link": "shopify://collections/all",
-        "button_text": "SHOP ALL"
+        "button_text": "SHOP ALL",
+        "atc_button_text": "add to cart"
       }
     }
   },
