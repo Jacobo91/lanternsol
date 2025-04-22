@@ -24,7 +24,7 @@
 .ellipsis-2-lines {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; /* Number of lines */
+    -webkit-line-clamp: 2;
     overflow: hidden;
     position: relative;
     line-height: 1.5em;
