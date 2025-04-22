@@ -449,6 +449,10 @@
   font-family: 'Barlow Semi Condensed';
 }
 
+.banner--desktop-transparent .banner__box {
+  background: transparent;
+}
+
 /* image with text */
 @media screen and (min-width: 1440px) {
   #ImageWithText--template--24453778112828__image_with_text_rCPkmi {
