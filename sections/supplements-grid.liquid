@@ -20,7 +20,7 @@
                         </div>
                         <div class="my-grid__item-info">
                             <h3 class="title">{{ product.title }}</h3>
-                            <span class="description">{{ product.description }}</span>
+                            <span class="description">{{ section.settings.product_text }}</span>
                             <span class="price">{{ product.price | money }}</span>
                         </div>
                         <form method="post" action="/cart/add">
@@ -79,7 +79,12 @@
                 "type": "text",
                 "id": "atc_button_text",
                 "label": "ATC Button text",
-            }
+            },
+            {
+                "type": "text",
+                "id": "product_text",
+                "label": "Product text",
+            },
         ],
         "presets": [
             {
