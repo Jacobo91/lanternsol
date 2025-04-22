@@ -6,10 +6,7 @@
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+    padding: 40px;
 }
 
 .my-grid__item {
