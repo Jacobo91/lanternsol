@@ -3848,3 +3848,14 @@ details-disclosure > details {
     font-size: 20px;
   }
 }
+
+/* blog */
+.image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media {
+  width: 305px;
+}
+
+.image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
