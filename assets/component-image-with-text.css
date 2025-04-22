@@ -511,4 +511,10 @@
   #ImageWithText--template--24453778473276__image_with_text_n6iNTA {
     padding-right: 0;
   }
+  #ImageWithText--template--24453778473276__image_with_text_n6iNTA .image-with-text__text.rte.body {
+    margin-bottom: 47px;
+  }
+  .image-with-text__text.image-with-text__text--caption.subtitle.subtitle--small.subtitle {
+    margin-top: 47px;
+  }
 }
