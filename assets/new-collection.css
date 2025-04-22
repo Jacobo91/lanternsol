@@ -144,6 +144,10 @@
 }
 
 /* new collection card on pdps */
+.title-and-price.pdp {
+    font-size: 56px;
+}
+
 .new-collection-card.pdp {
     direction: ltr;
 }
