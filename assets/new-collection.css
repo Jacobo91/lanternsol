@@ -9,8 +9,11 @@
 
 .new-collection-card button {
     font-family: 'Barlow';
-    font-weight: 400;
     font-size: 20px;
+}
+
+.new-collection-card .purchase-options button {
+    font-weight: 400;
 }
 
 .new-collection-card:nth-child(even) {
