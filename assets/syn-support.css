@@ -51,7 +51,7 @@
     text-wrap: stable;
 }
 
-@media screen and (min-width: 1054px) {
+@media screen and (min-width: 1440px) {
     .value-props {
         display: flex;
         flex-direction: row;
