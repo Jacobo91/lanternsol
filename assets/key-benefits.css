@@ -41,9 +41,11 @@ p {
 }
 
 .kb-card {
-    flex: 1 1 calc(50% - 10px); /* 2 items per row with 10px gap between them */
-    max-width: calc(50% - 10px); /* Ensures no overflow */
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
