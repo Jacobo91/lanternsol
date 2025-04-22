@@ -424,3 +424,9 @@
   font-weight: bold;
 }
 
+.image-with-text__text.rte.body p {
+  font-family: 'Barlow';
+  font-size: clamp(16px, 5vw, 20px);
+  line-height: 160%;
+  font-weight: 400;
+}
