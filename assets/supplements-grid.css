@@ -34,6 +34,12 @@
 .my-grid__item {
     list-style: none;
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-grid__item form {
+    margin-top: auto;
 }
 
 .my-grid__item-img-wrapper {
