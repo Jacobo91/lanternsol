@@ -275,6 +275,62 @@
         "title": "Synergistic Support with Vitamin K",
         "subtitle": "By combining <strong>Vitamin D3 with K1/K2</strong>, this formula enhances calcium   metabolism, ensuring it is deposited in the right places—strengthening bones   and protecting heart health."
       }
+    },
+    "image_with_text_n6iNTA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JeXrQm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Suggested Use",
+            "heading_size": "h1"
+          }
+        },
+        "text_aR4gjd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take one (1) capsule daily with a meal, or as recommended by your healthcare provider, to ensure you are meeting your body’s daily needs for Vitamin D and K.</p><p>Ensure your bones, heart, and immune system are at their best with VitaLuxe Vitamin D3 + K1/K2, a comprehensive formula designed for optimal health and longevity.</p>",
+            "text_style": "body"
+          }
+        },
+        "caption_EFcAnx": {
+          "type": "caption",
+          "settings": {
+            "caption": "(*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.)",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "button_ihcd9i": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JeXrQm",
+        "text_aR4gjd",
+        "caption_EFcAnx",
+        "button_ihcd9i"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/suggeste_use.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -283,6 +339,7 @@
     "new_product_F364iz",
     "key_benefits_K4zphg",
     "image_with_text_f8jjCA",
-    "syn_support_NGqmtC"
+    "syn_support_NGqmtC",
+    "image_with_text_n6iNTA"
   ]
 }
