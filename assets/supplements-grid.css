@@ -14,6 +14,7 @@
 
 .my-grid__item {
     list-style: none;
+    justify-self: center;
 }
 
 .my-grid__item-img-wrapper {
