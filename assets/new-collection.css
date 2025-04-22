@@ -70,6 +70,11 @@
     text-transform: uppercase;
 }
 
+.subscription-wrapper__btns {
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (min-width: 1440px) {
     .new-collection-card {
         gap: 110px;
