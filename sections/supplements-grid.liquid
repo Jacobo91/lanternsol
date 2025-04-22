@@ -23,6 +23,9 @@
                             <span class="description">{{ product.description }}</span>
                             <span class="price">{{ product.price | money }}</span>
                         </div>
+                        {% form 'product', product%}
+                            <input type="submit" value="Add To Cart">
+                        {% endform %}
                     </li>
                 {% endfor %}
             </ul>
