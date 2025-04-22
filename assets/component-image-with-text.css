@@ -415,3 +415,8 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+/* ======== */
+.image-with-text__heading.inline-richtext h1 {
+  font-size: 60px;
+}
