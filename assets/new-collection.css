@@ -43,6 +43,11 @@
     max-width: 305px;
 }
 
+.new-collection-card .img-wrapper.pdp {
+    max-width: 375px;
+}
+
+
 .new-collection-card .img-wrapper img {
     width: 100%;
     height: auto;
