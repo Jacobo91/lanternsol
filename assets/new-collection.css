@@ -132,3 +132,41 @@
         height: 495px;
     }
 }
+
+.quantity-label {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+
+/* new collection card on pdps */
+.title-and-price.pdp span:nth-of-type(1) {
+    font-size: 56px;
+    line-height: 80%;
+    max-width: 300px;
+}
+
+.title-and-price.pdp span:nth-of-type(2) {
+    font-size: 32px;
+}
+
+.new-collection-card.pdp {
+    direction: ltr;
+}
+
+.new-collection-card .img-wrapper.pdp {
+    max-width: 375px;
+}
+
+.btn.btn--add-to-cart.button.button--primary.pdp {
+    flex: 2;
+}
+.atc-section.pdp form {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}

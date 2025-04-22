@@ -1,12 +1,13 @@
-<div class="new-collection-card">
+{{ 'new-collection.css' | asset_url | stylesheet_tag }}
+<div class="new-collection-card pdp">
     <a href="{{ product.url }}">
-        <div class="img-wrapper">
+        <div class="img-wrapper pdp">
             <img src="{{ product.featured_image | image_url: width: 800 }}">
         </div>
     </a>
 
     <div class="product-info">
-        <div class="title-and-price">
+        <div class="title-and-price pdp">
             <span>{{ product.title }}</span> 
             <span>{{ product.price | money }}</span>
         </div>
@@ -35,13 +36,13 @@
                 </div>
             </div>
         </div>
-        <div class="atc-section">
+        <div class="atc-section pdp">
+            <label class="quantity-label">quantity</label>
             <form method="post" action="/cart/add">
                 <input type="hidden" name="id" value="{{ product.variants.first.id }}">
               
                 <div class="quantity-wrapper">
                   <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
-                  
                   <input 
                     type="number" 
                     name="quantity" 
@@ -54,7 +55,7 @@
                   <button type="button" class="qty-btn qty-plus" name="plus" aria-label="Increase quantity">+</button>
                 </div>
               
-                <button type="submit" class="btn btn--add-to-cart button button--primary">
+                <button type="submit" class="btn btn--add-to-cart button button--primary pdp">
                   add to cart
                   <span class="mask"></span>
                 </button>
