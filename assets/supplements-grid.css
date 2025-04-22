@@ -28,6 +28,10 @@
     object-fit: cover;
 }
 
+.my-grid__item-info {
+    color: #292126;
+}
+
 .my-grid__item-info .title {
     font-family: 'Barlow';
     font-size: 14px;
