@@ -3715,6 +3715,7 @@ details-disclosure > details {
   position: relative;
   overflow: hidden;
   background: #E9128A;
+  font-size: 14px;
 }
 
 .button.button--primary .mask {
@@ -3732,4 +3733,10 @@ details-disclosure > details {
 
 .button.button--primary:hover .mask {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 750px) {
+  .button.button--primary {
+    font-size: 20px;
+  }
 }
