@@ -23,9 +23,13 @@
                             <span class="description">{{ product.description }}</span>
                             <span class="price">{{ product.price | money }}</span>
                         </div>
-                        {% form 'product', product%}
-                            <input type="submit" value="ADD TO CART">
-                        {% endform %}
+                        <form method="post" action="/cart/add">
+                            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+                            
+                            <button type="submit" class="btn btn--add-to-cart">
+                              Add to Cart
+                            </button>
+                          </form>
                     </li>
                 {% endfor %}
             </ul>
