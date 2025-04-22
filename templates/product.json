@@ -261,7 +261,8 @@
         "value_prop_nhLMzP": {
           "type": "value-prop",
           "settings": {
-            "value_prop_text": ""
+            "value_prop_image": "shopify://shop_images/Group_434.png",
+            "value_prop_text": "Supports muscle function and boosts your immune system, helping your body stay strong and healthy.*"
           }
         }
       },
@@ -272,7 +273,7 @@
       ],
       "settings": {
         "title": "Synergistic Support with Vitamin K",
-        "subtitle": "By combining Vitamin D3 with K1/K2, this formula enhances calcium metabolism, ensuring it is deposited in the right places—strengthening bones and protecting heart health."
+        "subtitle": "By combining Vitamin D3 with K1/K2, this formula enhances calcium <br>  metabolism, ensuring it is deposited in the right places—strengthening bones <br>  and protecting heart health."
       }
     }
   },
