@@ -15,6 +15,8 @@
 .new-collection-card .purchase-options button {
     font-weight: 400;
     border: 1px solid #E9128A;
+    border-radius: 20px;
+    padding: 11px 27px;
 }
 
 .new-collection-card .atc-section button {
