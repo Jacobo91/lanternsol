@@ -574,6 +574,10 @@
 
 #Banner-template--24453778145596__image_banner_FFaxng .banner__box.content-container .banner__text.rte.body p {
   font-size: 20px;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto 32px auto;
+}
+
+#Banner-template--24453778145596__image_banner_FFaxng .value-props {
+  max-width: 600px;
 }
