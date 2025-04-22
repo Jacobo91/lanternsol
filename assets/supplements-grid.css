@@ -1,6 +1,8 @@
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    align-content: center;
 }
 
 .my-grid__item {
