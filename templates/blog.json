@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "collage",
         "show_image": true,
@@ -53,6 +54,7 @@
         "button_nRkwKr"
       ],
       "settings": {
+        "image": "shopify://shop_images/bone.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
