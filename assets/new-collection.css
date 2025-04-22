@@ -192,6 +192,7 @@
 
 .value-props__img-wrapper {
     display: flex;
+    gap: 6px;
 }
 
 .value-prop {
