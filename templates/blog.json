@@ -68,10 +68,31 @@
         "padding_top": 52,
         "padding_bottom": 0
       }
+    },
+    "blog_posts_aTChNj": {
+      "type": "blog-posts",
+      "blocks": {
+        "post_dReiLw": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog1.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "Top 5 Vitamins for Boosting Immunity This Winter",
+            "post_text": "Calcium isn't the only nutrient that keeps your bones strong. Explore the role of other minerals and vitamins like Vitamin D3, K2, and magnesium in maintaining bone density and strength.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
+        }
+      },
+      "block_order": [
+        "post_dReiLw"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "image_with_text_GGXNDj"
+    "image_with_text_GGXNDj",
+    "blog_posts_aTChNj"
   ]
 }
