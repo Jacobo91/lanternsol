@@ -1,7 +1,8 @@
 .key-benefits-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Optional: space between items */
+    gap: 23px;
+    max-width: 690px;
 }
 
 .kb-card {
