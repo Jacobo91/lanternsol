@@ -19,6 +19,7 @@ h4 {
     text-transform: uppercase;
     margin: 19px 0 15px 0;
     color: rgba(0, 0, 0, 1);
+    flex-grow: 1;
 }
 
 p {
@@ -39,6 +40,7 @@ p {
     row-gap: 40px;
     max-width: 690px;
     margin: 0 auto;
+    justify-content: stretch;
 }
 
 .kb-card {
