@@ -4,10 +4,33 @@
     margin-inline: 240px;
     gap: 40px;
     align-items: center;
+    font-family: 'Barlow';
+}
+
+.new-collection-card button {
+    font-family: 'Barlow';
+    font-size: 20px;
+}
+
+.new-collection-card .purchase-options button {
+    font-weight: 400;
+    border: 1px solid #E9128A;
+    border-radius: 20px;
+    padding: 11px 25px;
+    text-wrap: nowrap
+}
+
+.new-collection-card .atc-section button {
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .new-collection-card:nth-child(even) {
     direction: rtl;
+}
+
+.new-collection-card:nth-child(even) .product-info {
+    direction: ltr;
 }
 
 .new-collection-card .img-wrapper {
@@ -20,8 +43,54 @@
     object-fit: cover;
 }
 
+.title-and-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(41, 33, 38, 1);
+    margin-bottom: 21px;
+}
+
+.product-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 0 17px 0;
+}
+
+.purchase-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.purchase-options label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+}
+
+.one-time label,
+.subscription-wrapper label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.subscription-wrapper__btns {
+    display: flex;
+    gap: 10px;
+}
+
+.atc-section form {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1440px) {
     .new-collection-card {
-        gap: 200px;
+        gap: 110px;
     }
 }

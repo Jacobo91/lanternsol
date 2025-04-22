@@ -12,13 +12,17 @@
                     <span>{{ product.title }}</span> 
                     <span>{{ product.price | money }}</span>
                 </div>
-                <p>{{ product.description }}</p>
+                <p class="product-description">
+                    {{ product.description | strip_html }}
+                </p>
                 <div class="purchase-options">
                     <div class="one-time">
                         <label>purchase option</label>
-                        <button>
-                            one time
-                        </button>
+                        <div class="one-time__btn">
+                            <button>
+                                one time
+                            </button>
+                        </div>
                     </div>
                     
                     <div class="subscription-wrapper">
@@ -34,7 +38,23 @@
                     </div>
                 </div>
                 <div class="atc-section">
-                    {% render 'buy-buttons', product: product %}
+                    <form method="post" action="/cart/add">
+                        <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+
+                        <input 
+                            type="number" 
+                            name="quantity" 
+                            min="1" 
+                            value="1" 
+                            class="input-quantity"
+                            aria-label="Quantity"
+                        >
+
+                        <button type="submit" class="btn btn--add-to-cart button button--primary">
+                            add to cart
+                            <span class="mask"></span>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
