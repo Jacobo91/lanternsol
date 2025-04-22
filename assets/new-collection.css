@@ -29,6 +29,10 @@
     direction: rtl;
 }
 
+.new-collection-card:nth-child(even) .product-info {
+    direction: ltr;
+}
+
 .new-collection-card .img-wrapper {
     max-width: 305px;
 }
