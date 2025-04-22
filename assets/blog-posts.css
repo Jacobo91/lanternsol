@@ -52,7 +52,7 @@
     .text {
         margin: 0;
         font-weight: 400;
-        /* font-size: 20px; */
+        font-size: 20px;
         line-height: 160%;
     }
     #posts-flex {
