@@ -31,7 +31,8 @@ p {
 .key-benefits-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
     max-width: 690px;
     margin: 0 auto;
 }
