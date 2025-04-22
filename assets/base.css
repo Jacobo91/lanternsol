@@ -3710,12 +3710,15 @@ details-disclosure > details {
   }
 }
 
-.banner__buttons .button.button--primary {
+/* pink button */
+.button.button--primary {
   position: relative;
   overflow: hidden;
+  background: #E9128A;
+  font-size: 14px;
 }
 
-.banner__buttons .button.button--primary .mask {
+.button.button--primary .mask {
   position: absolute;
   top: 0;
   left: 0;
@@ -3728,6 +3731,12 @@ details-disclosure > details {
   z-index: 1;
 }
 
-.banner__buttons .button.button--primary:hover .mask {
+.button.button--primary:hover .mask {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 750px) {
+  .button.button--primary {
+    font-size: 20px;
+  }
 }

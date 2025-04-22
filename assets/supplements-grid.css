@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     padding: 0;
+    row-gap: 30px;
 }
 
 .my-grid__item {
@@ -54,7 +55,17 @@
     font-weight: 400;
 }
 
+.btn.btn--add-to-cart.button.button--primary {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
 @media screen and (min-width: 750px) {
+
+.grid-layout {
+        row-gap: 77px;
+    }
+
     .supplements {
         padding: 0px;
     }
@@ -69,6 +80,10 @@
 
     .my-grid__item-info .price {
         font-size: 20px;
+    }
+
+    .btn.btn--add-to-cart.button.button--primary {
+        margin-top: 22px;
     }
 
 }
