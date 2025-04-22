@@ -43,11 +43,6 @@
     max-width: 305px;
 }
 
-.new-collection-card .img-wrapper.pdp {
-    max-width: 375px;
-}
-
-
 .new-collection-card .img-wrapper img {
     width: 100%;
     height: auto;
@@ -151,4 +146,12 @@
 /* new collection card on pdps */
 .new-collection-card.pdp {
     direction: ltr;
+}
+
+.new-collection-card .img-wrapper.pdp {
+    max-width: 375px;
+}
+
+.btn.btn--add-to-cart.button.button--primary.pdp {
+    flex: 2;
 }
