@@ -566,3 +566,28 @@
   color: #000000;
   font-family: 'Barlow';
 }
+
+#Banner-template--24453778145596__image_banner_FFaxng .banner__box.content-container h2 {
+  font-family: 'Barlow';
+  font-weight: 700;
+}
+
+#Banner-template--24453778145596__image_banner_FFaxng .banner__box.content-container .banner__text.rte.body p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+}
+
+#Banner-template--24453778145596__image_banner_FFaxng .value-props-wrapper {
+  max-width: 600px;
+}
+
+#Banner-template--24453778145596__image_banner_FFaxng .value-prop-card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Banner-template--24453778145596__image_banner_FFaxng .value-props__info {
+  justify-items: center;
+}
