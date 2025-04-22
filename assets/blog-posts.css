@@ -35,4 +35,7 @@
         gap: 58px;
         border: 1px solid rgba(233, 18, 138, 1);
     }
+    .post-img-wrapper {
+        width: 437px;
+    }
 }
