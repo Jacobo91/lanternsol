@@ -72,7 +72,8 @@
     text-transform: uppercase;
 }
 
-.one-time label {
+.one-time label,
+.subscription-wrapper label {
     display: block;
     margin-bottom: 10px;
 }
