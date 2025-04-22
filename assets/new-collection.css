@@ -179,10 +179,10 @@
     width: 72px;
 }
 
-.value-prop:nth-of-type(1) {
+/* .value-prop:nth-of-type(1) {
     max-height: 71px;
     object-fit: contain;
-}
+} */
 
 .value-prop img{
     width: 100%;
