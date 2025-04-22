@@ -6,6 +6,10 @@
     padding: 40px;
 }
 
+.supplements__products-grid {
+    margin-bottom: 30px;
+}
+
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(2, 50%);
