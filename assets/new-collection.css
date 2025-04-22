@@ -62,6 +62,7 @@
 .purchase-options {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 34px;
 }
 
 .purchase-options label {
