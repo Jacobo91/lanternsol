@@ -124,4 +124,13 @@
     .btn.btn--add-to-cart.button.button--primary {
         margin-top: 22px;
     }
+
+    .my-grid__item:nth-child(odd) {
+        justify-self: baseline;
+      }
+      
+      .my-grid__item:nth-child(even) {
+        justify-self: end;
+      }
+      
 }
