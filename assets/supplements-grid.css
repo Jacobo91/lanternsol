@@ -10,6 +10,8 @@
     font-family: 'Barlow';
     font-weight: bold;
     font-size: 32px;
+    line-height: 90%;
+    margin-top: 0;
 }
 
 .supplements__info p {
@@ -27,11 +29,18 @@
     grid-template-columns: repeat(2, 50%);
     padding: 0;
     row-gap: 30px;
+    column-gap: 10px;
 }
 
 .my-grid__item {
     list-style: none;
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-grid__item form {
+    margin-top: auto;
 }
 
 .my-grid__item-img-wrapper {
@@ -80,14 +89,16 @@
 
     .grid-layout {
         row-gap: 77px;
+        margin-top: 26px;
     }
 
     .supplements {
-        padding: 0px;
+        padding: 100px 0px;
     }
 
     .supplements__info h2 {
         font-size: 60px;
+        margin-bottom: 18px;
     }
 
     .supplements__info p {
@@ -113,4 +124,13 @@
     .btn.btn--add-to-cart.button.button--primary {
         margin-top: 22px;
     }
+
+    .my-grid__item:nth-child(odd) {
+        justify-self: baseline;
+      }
+      
+      .my-grid__item:nth-child(even) {
+        justify-self: end;
+      }
+      
 }
