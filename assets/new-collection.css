@@ -1,7 +1,7 @@
 .new-collection-card {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 240px;
 }
 
 .new-collection-card .img-wrapper {
