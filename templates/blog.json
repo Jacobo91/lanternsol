@@ -82,10 +82,34 @@
             "post_url": "",
             "link_label": "READ NOW"
           }
+        },
+        "post_P9baCe": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog2.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "The Ultimate Guide to Bone Health: Beyond Calcium",
+            "post_text": "Calcium isn't the only nutrient that keeps your bones strong. Explore the role of other minerals and vitamins like Vitamin D3, K2, and magnesium in maintaining bone density and strength.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
+        },
+        "post_nVMBcU": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/blog3.png",
+            "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
+            "post_title": "Why Vitamin D Deficiency is More Common Than You Think",
+            "post_text": "Many people unknowingly suffer from low Vitamin D levels, which can affect mood, immunity, and more. Find out if you're at risk and learn how to naturally increase your Vitamin D intake.",
+            "post_url": "",
+            "link_label": "READ NOW"
+          }
         }
       },
       "block_order": [
-        "post_dReiLw"
+        "post_dReiLw",
+        "post_P9baCe",
+        "post_nVMBcU"
       ],
       "settings": {}
     }
