@@ -1,6 +1,7 @@
 .post-wrapper {
     display: flex;
     flex-direction: column;
+    max-width: 1300px;
 }
 
 @media screen and (min-width: 750px) {
