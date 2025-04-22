@@ -18,6 +18,11 @@
                         <div class="my-grid__item-img-wrapper">
                             <img src="{{ product.featured_image | image_url: width: 800 }}">
                         </div>
+                        <div class="my-grid__item-info">
+                            <h3>{{ product.title }}</h3>
+                            <span>{{ product.description }}</span>
+                            <span>{{ product.price | money }}</span>
+                        </div>
                     </li>
                 {% endfor %}
             </ul>
