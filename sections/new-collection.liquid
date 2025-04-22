@@ -6,8 +6,11 @@
             </div>
 
             <div>
-                <span></span>
-                <p></p>
+                <div class="title-and-price">
+                    <span>{{ product.title }}</span> 
+                    <span>{{ product.price | money }}</span>
+                </div>
+                <p>{{ product.description }}</p>
                 <div class="purchase-options">
                     <div class="one-time">
                         <button>
