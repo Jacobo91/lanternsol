@@ -417,6 +417,7 @@
 }
 
 /* ======== */
-.image-with-text__heading.inline-richtext h1 {
-  font-size: 60px;
+.image-with-text__heading.inline-richtext.h1 {
+  font-size: clamp(40px, 1vw, 60px);
 }
+
