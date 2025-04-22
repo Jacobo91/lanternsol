@@ -23,7 +23,7 @@
                             <span class="description">{{ product.description }}</span>
                             <span class="price">{{ product.price | money }}</span>
                         </div>
-                        {% render 'product-form', product %}
+                        {% render 'buy-buttons', product %}
                     </li>
                 {% endfor %}
             </ul>
