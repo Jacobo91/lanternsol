@@ -29,7 +29,7 @@
     color: rgba(41, 33, 38, 1);
 }
 
-.product-description > * {
+.product-description p {
     font-family: 'Barlow';
     font-weight: 400;
     font-size: 20px;
