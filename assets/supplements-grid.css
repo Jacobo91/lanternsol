@@ -29,7 +29,7 @@
 }
 
 .my-grid__item-info {
-    color: #292126;
+    color: #292126 !important;
 }
 
 .my-grid__item-info .title {
