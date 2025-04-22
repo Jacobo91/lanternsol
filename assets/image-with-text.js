@@ -10,5 +10,6 @@ if (heading) {
     return word;
   });
 
+  console.log(limitedBreaks);
   heading.innerHTML = limitedBreaks.join(' ');
 }
