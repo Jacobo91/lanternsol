@@ -73,6 +73,7 @@
         width: 437px;
         height: 245px;
         grid-row: 1;
+        grid-column: 1;
     }
     .post-img-wrapper img {
         width: 305px;
@@ -82,9 +83,11 @@
         padding-right: 100px;
         column-gap: 52px;
         grid-row: 1;
+        grid-column: 2;
     }
     .text-wrapper {
        grid-row: 1;
+       grid-column: 2;
     }
     .info {
         flex-basis: 73%;
