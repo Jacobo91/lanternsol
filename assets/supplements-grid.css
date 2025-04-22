@@ -46,6 +46,7 @@
 .my-grid__item-img-wrapper {
     max-width: 285px;
     max-height: 323px;
+    align-self: center;
 }
 
 .my-grid__item-img-wrapper img {
