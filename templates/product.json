@@ -109,6 +109,18 @@
           "type": "value-prop",
           "settings": {}
         },
+        "value_prop_xmctMG": {
+          "type": "value-prop",
+          "settings": {}
+        },
+        "value_prop_MnmmBR": {
+          "type": "value-prop",
+          "settings": {}
+        },
+        "value_prop_yiENf6": {
+          "type": "value-prop",
+          "settings": {}
+        },
         "value_prop_L9TBGE": {
           "type": "value-prop",
           "settings": {}
@@ -116,6 +128,9 @@
       },
       "block_order": [
         "value_prop_Mc6JKi",
+        "value_prop_xmctMG",
+        "value_prop_MnmmBR",
+        "value_prop_yiENf6",
         "value_prop_L9TBGE"
       ],
       "settings": {
