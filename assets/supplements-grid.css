@@ -1,7 +1,8 @@
 .supplements {
     font-family: 'Barlow';
     text-align: center;
-    padding: 40px;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .grid-layout {
