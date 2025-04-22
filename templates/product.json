@@ -240,6 +240,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "syn_support_NGqmtC": {
+      "type": "syn-support",
+      "settings": {
+        "title": "Synergistic Support with Vitamin K",
+        "subtitle": "By combining Vitamin D3 with K1/K2, this formula enhances calcium metabolism, ensuring it is deposited in the right places—strengthening bones and protecting heart health."
+      }
     }
   },
   "order": [
@@ -247,6 +254,7 @@
     "related-products",
     "new_product_F364iz",
     "key_benefits_K4zphg",
-    "image_with_text_f8jjCA"
+    "image_with_text_f8jjCA",
+    "syn_support_NGqmtC"
   ]
 }
