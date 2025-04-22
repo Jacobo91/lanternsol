@@ -38,7 +38,10 @@
                     </div>
                 </div>
                 <div class="atc-section">
-                    {% render 'buy-buttons', product: product %}
+                    {%- render 'buy-buttons',
+                        product: product,
+                        section_id: section.id
+                      -%}
                 </div>
             </div>
         </div>
