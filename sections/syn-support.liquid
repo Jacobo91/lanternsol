@@ -4,12 +4,14 @@
         <h2>{{ section.settings.title }}</h2>
         <p>{{ section.settings.subtitle }}</p>
         <div class="value-props">
-            <div class="value-prop__card">
-                <div class="vp-img-wrapper">
-                    <img>
+            {% for block in section.blocks %}                
+                <div class="value-prop__card">
+                    <div class="vp-img-wrapper">
+                        <img src="{{ block.settings.value_prop_image | image_url: width: 400 }}">
+                    </div>
+                    <p></p>
                 </div>
-                <p></p>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -27,6 +29,25 @@
                 "type": "text",
                 "id": "subtitle",
                 "label": "Subitle"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "value-prop",
+                "name": "value-prop",
+                "limit": 3,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "value_prop_image",
+                        "label": "Value prop image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "value_prop_text",
+                        "label": "Value prop text"
+                    }
+                ]
             }
         ],
         "presets": [
