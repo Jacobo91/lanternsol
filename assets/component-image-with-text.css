@@ -431,3 +431,9 @@
   font-weight: 400;
   margin-top: 40px;
 }
+
+@media screen and (min-width: 750px) {
+  .image-with-text__text.rte.body {
+    margin-top: 40px;
+  }
+}
