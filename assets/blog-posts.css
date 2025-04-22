@@ -46,6 +46,9 @@
         width: 437px;
         height: 245px;
     }
+    .post-img-wrapper img {
+        width: 305px;
+    }
     .post-content {
         display: flex;
         padding-right: 100px;
