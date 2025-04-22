@@ -66,12 +66,16 @@
 
 @media screen and (min-width: 750px) {
 
-.grid-layout {
+    .grid-layout {
         row-gap: 77px;
     }
 
     .supplements {
         padding: 0px;
+    }
+
+    .supplements__products-grid {
+        margin-bottom: 70px;
     }
 
     .my-grid__item-info .title {
