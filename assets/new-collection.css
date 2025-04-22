@@ -92,6 +92,7 @@
 .atc-section form input[name="quantity"] {
     border: 1px solid #E9128A;
     border-radius: 20px;
+    max-width: 106px;
 }
 
 @media screen and (min-width: 1440px) {
