@@ -107,23 +107,33 @@
       "blocks": {
         "value_prop_Mc6JKi": {
           "type": "value-prop",
-          "settings": {}
+          "settings": {
+            "value_prop_image": "shopify://shop_images/Group_415.png"
+          }
         },
         "value_prop_xmctMG": {
           "type": "value-prop",
-          "settings": {}
+          "settings": {
+            "value_prop_image": "shopify://shop_images/free_1_1.png"
+          }
         },
         "value_prop_MnmmBR": {
           "type": "value-prop",
-          "settings": {}
+          "settings": {
+            "value_prop_image": "shopify://shop_images/milk_1.png"
+          }
         },
         "value_prop_yiENf6": {
           "type": "value-prop",
-          "settings": {}
+          "settings": {
+            "value_prop_image": "shopify://shop_images/free_1.png"
+          }
         },
         "value_prop_L9TBGE": {
           "type": "value-prop",
-          "settings": {}
+          "settings": {
+            "value_prop_image": "shopify://shop_images/tag_1.png"
+          }
         }
       },
       "block_order": [
