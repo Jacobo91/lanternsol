@@ -37,10 +37,10 @@
             </div>
         </div>
         <div class="atc-section">
+            <label>quantity</label>
             <form method="post" action="/cart/add">
                 <input type="hidden" name="id" value="{{ product.variants.first.id }}">
               
-                <label>quantity</label>
                 <div class="quantity-wrapper">
                   <button type="button" class="qty-btn qty-minus" aria-label="Decrease quantity">−</button>
                   <input 
