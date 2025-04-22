@@ -1,0 +1,51 @@
+#syn-support {
+    background: rgba(0, 0, 0, 1);
+    padding: 60px 0 80px 0;
+}
+
+.syn-support-wrapper {
+    max-width: 804px;
+    margin: 0 auto;
+}
+
+h2,
+p {
+    color: #fff;
+    font-family: 'Barlow';
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin: 0 0 20px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.value-props {
+    display: flex;
+}
+
+.value-prop__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.value-prop__card p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}
