@@ -52,9 +52,8 @@
     .text {
         margin: 0;
         font-weight: 400;
-        font-size: 20px;
+        /* font-size: 20px; */
         line-height: 160%;
-        /* max-width: 501px; */
     }
     #posts-flex {
         padding: 77px 20px 80px 20px;
