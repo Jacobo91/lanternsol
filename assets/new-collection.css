@@ -29,6 +29,13 @@
     color: rgba(41, 33, 38, 1);
 }
 
+.product-description {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
 .purchase-options {
     display: flex;
 }
