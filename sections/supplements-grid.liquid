@@ -20,9 +20,9 @@
                         </div>
                         <div class="my-grid__item-info">
                             <h3 class="title">{{ product.title }}</h3>
-                            <span class="description">{{ product.metafields.custom.product_text }}</span>
                             <span class="price">{{ product.price | money }}</span>
                         </div>
+                        <span class="description">{{ product.metafields.custom.product_text }}</span>
                         <form method="post" action="/cart/add">
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
                             

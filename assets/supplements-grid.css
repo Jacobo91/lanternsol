@@ -67,7 +67,7 @@
     margin: 7px 0 5px 0;
 }
 
-.my-grid__item-info .description {
+.my-grid__item-info .description p {
     font-family: 'Barlow';
     font-size: 10px;
     font-weight: 400;
