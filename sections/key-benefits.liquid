@@ -2,13 +2,15 @@
 <div id="key-benefits" class="key-benefits-wrapper">
     <h3>{{ section.settings.title }}</h3>
     <div class="key-benefits-gallery">
-        <div class="kb-card">
-            <div>
-                <img src="{{ section.setting.image | image_url: width: 800 }}">
+        {% for block in section.blocks %}            
+            <div class="kb-card">
+                <div>
+                    <img src="{{ block.settings.image | image_url: width: 800 }}">
+                </div>
+                <h4>{{ block.setting.card_title }}</h4>
+                <p>{{ block.settings.card_text }}</p>
             </div>
-            <h4>{{ section.setting.card_title }}</h4>
-            <p>{{ section.settings.card_text }}</p>
-        </div>
+        {% endfor %}
     </div>
 </div>
 
