@@ -4,9 +4,10 @@
     margin-inline: 240px;
     gap: 40px;
     align-items: center;
+    font-family: 'Barlow';
 }
 
-.new-collection-card > * {
+.new-collection-card button {
     font-family: 'Barlow';
 }
 
