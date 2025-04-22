@@ -95,6 +95,7 @@
     border-radius: 20px;
     max-width: 106px;
     display: flex;
+    justify-content: center;
 }
 
 .atc-section form .quantity-wrapper button {
