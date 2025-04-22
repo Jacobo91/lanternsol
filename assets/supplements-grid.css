@@ -29,6 +29,7 @@
     grid-template-columns: repeat(2, 50%);
     padding: 0;
     row-gap: 30px;
+    column-gap: 10px;
 }
 
 .my-grid__item {
