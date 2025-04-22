@@ -38,18 +38,14 @@
                     </div>
                 </div>
                 <div class="atc-section">
-                    {%- render 'buy-buttons',
-                        product: product,
-                        section_id: section.id
-                      -%}
-                      <form method="post" action="/cart/add">
+                    <form method="post" action="/cart/add">
                         <input type="hidden" name="id" value="{{ product.variants.first.id }}">
                         
                         <button type="submit" class="btn btn--add-to-cart button button--primary">
-                          {{ section.settings.atc_button_text }}
-                          <span class="mask"></span>
+                            {{ section.settings.atc_button_text }}
+                            <span class="mask"></span>
                         </button>
-                      </form>
+                    </form>
                 </div>
             </div>
         </div>
