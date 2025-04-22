@@ -98,6 +98,11 @@
     font-weight: 400;
 }
 
+.atc-section form input[name="quantity"]:focus {
+    outline: none;
+    box-shadow: none;
+  }  
+
 @media screen and (min-width: 1440px) {
     .new-collection-card {
         gap: 110px;
