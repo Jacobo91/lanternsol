@@ -90,13 +90,27 @@
     justify-content: space-between;
 }
 
-.atc-section form input[name="quantity"] {
+.atc-section form .quantity-wrapper {
     border: 1px solid #E9128A;
     border-radius: 20px;
     max-width: 106px;
+    display: flex;
+    justify-content: center;
+}
+
+.atc-section form .quantity-wrapper button {
+    border: none;
+    background: transparent;
+}
+
+.atc-section form input[name="quantity"] {
+    width: 30%;
     font-family: 'Barlow';
     font-size: 20px;
     font-weight: 400;
+    border: none;
+    text-align: center;
+    background: transparent;
 }
 
 .atc-section form input[name="quantity"]:focus {
