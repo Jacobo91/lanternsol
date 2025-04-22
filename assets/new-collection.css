@@ -109,6 +109,7 @@
     font-size: 20px;
     font-weight: 400;
     border: none;
+    text-align: center;
 }
 
 .atc-section form input[name="quantity"]:focus {
