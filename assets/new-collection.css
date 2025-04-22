@@ -133,6 +133,14 @@
     }
 }
 
+.quantity-label {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
 /* new collection card on pdps */
 .new-collection-card.pdp {
     direction: ltr;
