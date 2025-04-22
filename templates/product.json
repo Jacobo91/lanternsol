@@ -243,6 +243,32 @@
     },
     "syn_support_NGqmtC": {
       "type": "syn-support",
+      "blocks": {
+        "value_prop_HY6Xh8": {
+          "type": "value-prop",
+          "settings": {
+            "value_prop_image": "shopify://shop_images/Group_435.png",
+            "value_prop_text": "Helps maintain strong bones by improving calcium absorption and directing calcium to where it’s needed most—your bones.*"
+          }
+        },
+        "value_prop_bXNej4": {
+          "type": "value-prop",
+          "settings": {
+            "value_prop_text": ""
+          }
+        },
+        "value_prop_nhLMzP": {
+          "type": "value-prop",
+          "settings": {
+            "value_prop_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "value_prop_HY6Xh8",
+        "value_prop_bXNej4",
+        "value_prop_nhLMzP"
+      ],
       "settings": {
         "title": "Synergistic Support with Vitamin K",
         "subtitle": "By combining Vitamin D3 with K1/K2, this formula enhances calcium metabolism, ensuring it is deposited in the right places—strengthening bones and protecting heart health."
