@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
-    max-width: 690px;
+    /* max-width: 690px; */
 }
 
 .kb-card {
