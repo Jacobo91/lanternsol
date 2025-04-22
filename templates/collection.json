@@ -41,6 +41,20 @@
             "text_style": "body"
           }
         },
+        "value_props_9RGbXK": {
+          "type": "value_props",
+          "settings": {
+            "image_1": "shopify://shop_images/molecular-structure_1_945717a0-1c2c-441e-a5bb-964bb886805a.png",
+            "heading_1": "High-Quality",
+            "text_1": "Science-Backed Formulas",
+            "image_2": "shopify://shop_images/Group_24_cbf451fd-918e-4733-b64b-9b116c4ead77.png",
+            "heading_2": "healthcare providers",
+            "text_2": "Experts in cardiovascular health",
+            "image_3": "shopify://shop_images/ingredients_1_1_0939294d-bcdc-4f0b-b4d2-0250366a47b0.png",
+            "heading_3": "Premium Ingredients",
+            "text_3": "High Quality, Pure and Potent"
+          }
+        },
         "buttons_k8i4Gb": {
           "type": "buttons",
           "disabled": true,
@@ -58,6 +72,7 @@
         "logo_tRxVz8",
         "heading_dXEqrr",
         "text_AaWQnX",
+        "value_props_9RGbXK",
         "buttons_k8i4Gb"
       ],
       "settings": {
