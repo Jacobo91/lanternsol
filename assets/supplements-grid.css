@@ -135,3 +135,7 @@
       }
       
 }
+
+.my-grid__item a {
+    text-decoration: none;
+}
