@@ -19,6 +19,14 @@ h4 {
     margin: 19px 0 15px 0;
 }
 
+p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
 .key-benefits-gallery {
     display: flex;
     flex-wrap: wrap;
