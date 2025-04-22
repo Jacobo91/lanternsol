@@ -102,7 +102,7 @@
 }
 
 .atc-section form input[name="quantity"] {
-    width: 100%;
+    width: 30%;
     font-family: 'Barlow';
     font-size: 20px;
     font-weight: 400;
