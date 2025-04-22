@@ -1,6 +1,8 @@
 {{ 'new-collection.css' | asset_url | stylesheet_tag }}
 
 <div id="new-collection">
+    {% assign collection_handle = 'frontpage' %}
+    {% assign collection = collections[collection_handle] %}
     {% for product in collection.products %}
         <div class="new-collection-card">
             <div class="img-wrapper">
