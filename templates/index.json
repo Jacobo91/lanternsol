@@ -110,7 +110,7 @@
           "type": "button",
           "settings": {
             "button_label": "GET A SUBSCRIPTION",
-            "button_link": "",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
