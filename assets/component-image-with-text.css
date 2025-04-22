@@ -449,6 +449,10 @@
   font-family: 'Barlow Semi Condensed';
 }
 
+#Banner-template--24453778145596__image_banner_FFaxng .banner__box.content-container {
+  background: transparent !important;
+}
+
 /* image with text */
 @media screen and (min-width: 1440px) {
   #ImageWithText--template--24453778112828__image_with_text_rCPkmi {
