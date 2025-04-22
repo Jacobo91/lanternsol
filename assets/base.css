@@ -3848,3 +3848,11 @@ details-disclosure > details {
     font-size: 20px;
   }
 }
+
+/* navbar */
+sticky-header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
