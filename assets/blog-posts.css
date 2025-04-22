@@ -1,10 +1,13 @@
+#posts-flex {
+    padding: 77px 0 80px 0;
+}
+
 .post-wrapper {
     display: flex;
     flex-direction: column;
     max-width: 1300px;
     margin: 0 auto;
     align-items: center;
-    padding: 77px 0 80px 0;
     border: 1px solid rgba(233, 18, 138, 1);
     border-radius: 30px;
 }
