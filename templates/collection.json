@@ -113,12 +113,60 @@
     "new_collection_4JXADY": {
       "type": "new-collection",
       "settings": {}
+    },
+    "image_with_text_tFmyhT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dxaPgk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Every Health Journey Needs a Trusted Partner",
+            "heading_size": "h1"
+          }
+        },
+        "text_CC9f4e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe wellness starts with knowledge. That’s why we’re here to empower you with transparent, science-backed information on every product we make. Your health deserves the best.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_hNDgwe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dxaPgk",
+        "text_CC9f4e",
+        "button_hNDgwe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/retired-senior-swiss-ball-living-room-doing-wellness-fitness-workout-streching-arm-muscles-using-aerobics-elastic-band_r.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "image_banner_FFaxng",
     "product-grid",
-    "new_collection_4JXADY"
+    "new_collection_4JXADY",
+    "image_with_text_tFmyhT"
   ]
 }
