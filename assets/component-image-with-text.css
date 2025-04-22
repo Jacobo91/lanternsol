@@ -421,5 +421,6 @@
   font-size: clamp(40px, 5vw, 60px);
   font-family: 'Barlow';
   line-height: 90%;
+  font-weight: bold;
 }
 
