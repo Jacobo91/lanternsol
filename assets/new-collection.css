@@ -1,3 +1,8 @@
+.new-collection {
+    display: grid;
+    row-gap: 40px;
+}
+
 .new-collection-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5,7 +10,6 @@
     gap: 40px;
     align-items: center;
     font-family: 'Barlow';
-    row-gap: 40px;
 }
 
 .new-collection-card button {
@@ -120,6 +124,9 @@
   }  
 
 @media screen and (min-width: 1440px) {
+    .new-collection {
+        row-gap: 0px;
+    }
     .new-collection-card {
         gap: 110px;
         height: 495px;
