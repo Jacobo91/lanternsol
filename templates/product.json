@@ -104,7 +104,23 @@
     },
     "new_product_F364iz": {
       "type": "new-product",
-      "settings": {}
+      "blocks": {
+        "value_prop_Mc6JKi": {
+          "type": "value-prop",
+          "settings": {}
+        },
+        "value_prop_L9TBGE": {
+          "type": "value-prop",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "value_prop_Mc6JKi",
+        "value_prop_L9TBGE"
+      ],
+      "settings": {
+        "value_props_title": "quality you can trust"
+      }
     }
   },
   "order": [
