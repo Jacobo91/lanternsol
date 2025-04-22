@@ -2,7 +2,7 @@
 
 <div id="new-collection">
     {% assign products = collection.products | reverse %}
-    {% for product in products %}
+    {% for product in collection.products %}
         <div class="new-collection-card">
             <div class="img-wrapper">
                 <img src="{{ product.featured_image | image_url: width: 800 }}">
