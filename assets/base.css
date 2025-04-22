@@ -3852,6 +3852,7 @@ details-disclosure > details {
 /* blog */
 .image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media {
   width: 305px;
+  padding: 0;
 }
 
 .image-with-text__media.image-with-text__media--adapt.gradient.color-scheme-1.global-media-settings.media img {
