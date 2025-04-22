@@ -21,6 +21,17 @@
     object-fit: cover;
 }
 
+.ellipsis-2-lines {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5em; /* Adjust line height as needed */
+    max-height: 3em; /* line-height × number of lines */
+  }
+  
+
 @media screen and (min-width: 750px) {
     #posts-flex {
         padding: 77px 20px 80px 20px;
