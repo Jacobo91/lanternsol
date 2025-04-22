@@ -42,6 +42,12 @@
     margin: 5px 0 18px 0;
 }
 
+.my-grid__item-info .price {
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 400;
+}
+
 @media screen and (min-width: 750px) {
     .supplements {
         padding: 0px;
@@ -53,6 +59,10 @@
 
     .my-grid__item-info .description p {
         font-size: 14px;
+    }
+
+    .my-grid__item-info .price {
+        font-size: 20px;
     }
 
 }
