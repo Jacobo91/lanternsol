@@ -19,23 +19,8 @@
                 role="list"
             >
                 {% for product in section.settings.product_list %}
-                    <li
-                        class="grid__item"
-                        {% if settings.animations_reveal_on_scroll %}
-                          data-cascade
-                          style="--animation-order: {{ forloop.index }};"
-                        {% endif %}
-                    >
-                        {% render 'card-product',
-                            card_product: product,
-                            media_aspect_ratio: section.settings.image_ratio,
-                            image_shape: section.settings.image_shape,
-                            show_secondary_image: section.settings.show_secondary_image,
-                            show_vendor: section.settings.show_vendor,
-                            show_rating: section.settings.show_rating,
-                            section_id: section.id,
-                            quick_add: section.settings.quick_add
-                        %}
+                    <li class="my-grid__item">
+
                     </li>
                 {% endfor %}
             </ul>
