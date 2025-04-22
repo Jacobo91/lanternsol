@@ -56,7 +56,7 @@ p {
 
 @media (max-width: 768px) {
     .kb-card {
-        flex: 1 1 100%; /* Stack items on smaller screens */
+        flex: 1 1 100%;
         max-width: 100%;
     }
 }

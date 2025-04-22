@@ -4,12 +4,22 @@
 }
 
 .new-collection-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-inline: 240px;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
     align-items: center;
     font-family: 'Barlow';
+}
+
+@media screen and (min-width: 1440px) {
+    .new-collection-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-inline: 240px;
+        gap: 40px;
+        align-items: center;
+        font-family: 'Barlow';
+    }
 }
 
 .new-collection-card button {
