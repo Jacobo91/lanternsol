@@ -20,6 +20,10 @@
     object-fit: cover;
 }
 
+.purchase-options {
+    display: flex;
+}
+
 @media screen and (min-width: 1440px) {
     .new-collection-card {
         gap: 200px;
