@@ -3850,7 +3850,7 @@ details-disclosure > details {
 }
 
 /* navbar */
-sticky-header {
+header {
   position: absolute;
   width: 100%;
   background: transparent;
