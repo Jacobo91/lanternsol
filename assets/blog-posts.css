@@ -54,4 +54,7 @@
     .info {
         flex-basis: 60%;
     }
+    .info h2 {
+        padding-block: 20px;
+    }
 }
