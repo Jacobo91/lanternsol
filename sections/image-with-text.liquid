@@ -96,7 +96,8 @@
                       class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
-                      {% comment %} {{ block.settings.button_label | escape }} {% endcomment %}
+                      {{ block.settings.button_label | escape }}
+                      <span class="mask"></span>
                     </a>
                   {%- endif -%}
               {%- endcase -%}
