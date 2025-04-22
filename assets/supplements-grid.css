@@ -54,6 +54,10 @@
     font-weight: 400;
 }
 
+.btn.btn--add-to-cart.button.button--primary {
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 750px) {
     .supplements {
         padding: 0px;
