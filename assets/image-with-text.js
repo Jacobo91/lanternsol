@@ -10,6 +10,5 @@ if (heading) {
     return word;
   });
 
-  console.log(limitedBreaks.join(' '));
   heading.innerHTML = limitedBreaks.join(' ');
 }
