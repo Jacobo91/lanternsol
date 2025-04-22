@@ -215,8 +215,8 @@
         "button_enQLmH"
       ],
       "settings": {
-        "image": "shopify://shop_images/senior.png",
-        "height": "adapt",
+        "image": "shopify://shop_images/retired-senior-swiss-ball-living-room-doing-wellness-fitness-workout-streching-arm-muscles-using-aerobics-elastic-band_r.png",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
@@ -229,6 +229,52 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_ikjLiP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_h9rMd9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainably Sourced Krill Oil",
+            "heading_size": "h1"
+          }
+        },
+        "text_UTmh9i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our formula is three times more absorbable than standard fish oil, ensuring your body gets the nutrients it needs for optimal cardiovascular, joint, and brain health.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_pFLBqQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE ABOUT US",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_h9rMd9",
+        "text_UTmh9i",
+        "button_pFLBqQ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-83f03076-fd7a-45f0-856c-0983ad399dde",
+        "color_scheme": "scheme-83f03076-fd7a-45f0-856c-0983ad399dde",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -236,6 +282,7 @@
     "supplements_grid_JeHJj7",
     "image_with_text_rCPkmi",
     "image_with_text_Qx8FYq",
-    "image_with_text_8Hiw8j"
+    "image_with_text_8Hiw8j",
+    "image_with_text_ikjLiP"
   ]
 }
