@@ -1,3 +1,5 @@
+{{ 'new-collection.css' | asset_url | stylesheet_tag }}
+
 <div id="new-collection">
     {% for product in collection.products %}
         <div class="new-collection-card">
@@ -5,7 +7,7 @@
                 <img src="{{ product.featured_image | image_url: width: 800 }}">
             </div>
 
-            <div>
+            <div class="product-info">
                 <div class="title-and-price">
                     <span>{{ product.title }}</span> 
                     <span>{{ product.price | money }}</span>
@@ -13,18 +15,22 @@
                 <p>{{ product.description }}</p>
                 <div class="purchase-options">
                     <div class="one-time">
+                        <label>purchase option</label>
                         <button>
                             one time
                         </button>
                     </div>
                     
-                    <div class="subscription-btns">
-                        <button>
-                            1 month
-                        </button>
-                        <button>
-                            3 months
-                        </button>
+                    <div class="subscription-wrapper">
+                        <label>subscribe and save!</label>
+                        <div class="subscription-wrapper__btns">
+                            <button>
+                                1 month
+                            </button>
+                            <button>
+                                3 months
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="atc-section">
