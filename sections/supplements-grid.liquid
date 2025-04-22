@@ -27,7 +27,7 @@
                             <input type="hidden" name="id" value="{{ product.variants.first.id }}">
                             
                             <button type="submit" class="btn btn--add-to-cart button button--primary">
-                              Add to Cart
+                              {{ section.settings.atc_button_text }}
                               <span class="mask"></span>
                             </button>
                           </form>
@@ -74,6 +74,11 @@
                 "type": "text",
                 "id": "button_text",
                 "label": "Button text",
+            },
+            {
+                "type": "text",
+                "id": "atc_button_text",
+                "label": "ATC Button text",
             }
         ],
         "presets": [
