@@ -31,8 +31,20 @@
     max-height: 3em;
     letter-spacing: 0.45px;
   }
+
+  .info {
+    font-family: 'Barlow';
+  }
   
 @media screen and (min-width: 1054px) {
+    .date {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .title {
+
+    }
     .text {
         margin: 0;
       }
