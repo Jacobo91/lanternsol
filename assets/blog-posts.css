@@ -38,6 +38,7 @@
     .post-content {
         display: flex;
         padding-right: 100px;
+        column-gap: 52px;
     }
     .info {
         flex-basis: 60%;
