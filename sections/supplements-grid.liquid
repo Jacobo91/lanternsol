@@ -1,3 +1,5 @@
+{{ 'supplements-grid.css' | asset_url | stylesheet_tag }}
+
 <div id="supplements-{{ section.id }}" class="supplements">
 
     <div class="supplements__info">
@@ -7,9 +9,23 @@
 
     <div class="supplements__products-grid">
         {% if section.settings.product_list %}
-            {% for product in section.settings.product_list %}
-                <span>{{ product.title }}</span>
-            {% endfor %}
+            <ul
+                class="grid-layout"
+                role="list"
+            >
+                {% for product in section.settings.product_list %}
+                    <li class="my-grid__item">
+                        <div class="my-grid__item-img-wrapper">
+                            <img src="{{ product.featured_image | image_url: width: 800 }}">
+                        </div>
+                        <div class="my-grid__item-info">
+                            <h3 class="title">{{ product.title }}</h3>
+                            <span class="description">{{ product.description }}</span>
+                            <span class="price">{{ product.price | money }}</span>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
         {% endif %}
     </div>
 

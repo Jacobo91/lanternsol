@@ -1,0 +1,74 @@
+.supplements {
+    font-family: 'Barlow';
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 0;
+}
+
+.my-grid__item {
+    list-style: none;
+    justify-self: center;
+}
+
+.my-grid__item-img-wrapper {
+    max-width: 285px;
+    max-height: 323px;
+}
+
+.my-grid__item-img-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.my-grid__item-info .title,
+.my-grid__item-info .description p,
+.my-grid__item-info .price {
+    color: #292126 !important;
+}
+
+.my-grid__item-info .title {
+    font-family: 'Barlow';
+    font-size: 14px;
+    font-weight: bold;
+    margin: 7px 0 5px 0;
+}
+
+.my-grid__item-info .description p {
+    font-family: 'Barlow';
+    font-size: 10px;
+    font-weight: 400;
+    margin: 5px 0 18px 0;
+}
+
+.my-grid__item-info .price {
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 750px) {
+    .supplements {
+        padding: 0px;
+    }
+
+    .my-grid__item-info .title {
+        font-size: 16px;
+    }
+
+    .my-grid__item-info .description p {
+        font-size: 14px;
+    }
+
+    .my-grid__item-info .price {
+        font-size: 20px;
+    }
+
+}
