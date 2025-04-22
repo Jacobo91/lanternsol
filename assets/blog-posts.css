@@ -65,9 +65,7 @@
         border: 1px solid rgba(233, 18, 138, 1);
     } */
     .post-wrapper {
-        display: flex;
-        flex-direction: row;
-        gap: 58px;
+        display: grid;
         border: 1px solid rgba(233, 18, 138, 1);
     }
     .post-img-wrapper {
