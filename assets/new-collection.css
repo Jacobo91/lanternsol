@@ -173,3 +173,43 @@
     justify-content: space-between;
     gap: 25px;
 }
+
+/* value props */
+
+.new-collection-card.pdp a {
+    text-decoration: none;
+}
+
+.new-collection-card__value-props .title {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 0 0 3px 0;
+    max-width: 375px;
+}
+
+.value-props__img-wrapper {
+    display: flex;
+    gap: 6px;
+}
+
+.value-prop {
+    width: 72px;
+}
+
+.value-prop:nth-of-type(1) img {
+    max-height: 71px;
+    object-fit: contain;
+}
+
+.value-prop img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
