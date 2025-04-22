@@ -156,6 +156,8 @@
 
 .new-collection-card.pdp {
     direction: ltr;
+    padding-top: 32px;
+    padding-bottom: 88px;
 }
 
 .new-collection-card .img-wrapper.pdp {
