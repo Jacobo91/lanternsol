@@ -179,7 +179,7 @@
           "settings": {
             "image": "shopify://shop_images/8188937_2123_4_1.png",
             "card_title": "Cognitive and Neurological Support",
-            "card_text": "With its role in gene expression, Vitamin D3 contributes to optimal brain function and overall cognitive health.*"
+            "card_text": "With its role in gene expression, <br> Vitamin D3 contributes to optimal <br> brain function and overall cognitive <br> health.*"
           }
         }
       },
