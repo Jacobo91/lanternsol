@@ -205,6 +205,10 @@
                   </div>
                 </div>
               </div>
+              {% when 'logo' %}
+              <div class="logo-image">
+                <img src="{{ block.settings.logo_image | image_url: width: 400 }}">
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
