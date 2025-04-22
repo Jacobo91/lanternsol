@@ -12,6 +12,12 @@
     font-size: 32px;
 }
 
+.supplements__info p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .supplements__products-grid {
     margin-bottom: 30px;
 }
