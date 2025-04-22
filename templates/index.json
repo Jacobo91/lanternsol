@@ -216,7 +216,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/retired-senior-man-sitting-fitness-swiss-ball-living-room-doing-wellness-fitness-workout-streching-arm-muscles-using-aerobics-elastic-band.png",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
