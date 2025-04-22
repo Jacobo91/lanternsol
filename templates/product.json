@@ -226,6 +226,7 @@
         "button_7YnDTc"
       ],
       "settings": {
+        "image": "shopify://shop_images/patients-checking-medical-treatment.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
