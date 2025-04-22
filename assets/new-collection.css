@@ -5,6 +5,7 @@
     gap: 40px;
     align-items: center;
     font-family: 'Barlow';
+    row-gap: 40px;
 }
 
 .new-collection-card button {
