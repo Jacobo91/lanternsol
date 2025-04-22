@@ -1,12 +1,4 @@
-<style>
-    .grid-layout {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-    }
-    .my-grid__item {
-        list-style: none;
-    }
-</style>
+{{ 'supplements-grid.css' | asset_url | stylesheet_tag }}
 
 <div id="supplements-{{ section.id }}" class="supplements">
 
