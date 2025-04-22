@@ -90,9 +90,14 @@
     justify-content: space-between;
 }
 
-.atc-section .quantity-wrapper {
+.atc-section form .quantity-wrapper {
     border: 1px solid #E9128A;
     border-radius: 20px;
+    max-width: 106px;
+    display: flex;
+}
+
+.atc-section form input[name="quantity"] {
     max-width: 106px;
     font-family: 'Barlow';
     font-size: 20px;
