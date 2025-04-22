@@ -51,6 +51,10 @@
     color: rgba(41, 33, 38, 1);
 }
 
+.title-and-price p {
+    margin: 0;
+}
+
 .product-description {
     font-weight: 400;
     font-size: 20px;
