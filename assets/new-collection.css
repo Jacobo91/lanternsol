@@ -4,6 +4,7 @@
     margin-inline: 240px;
     gap: 40px;
     align-items: center;
+    font-family: 'Barlow';
 }
 
 .new-collection-card:nth-child(even) {
@@ -23,14 +24,12 @@
 .title-and-price {
     display: flex;
     justify-content: space-between;
-    font-family: 'Barlow';
     font-weight: 700;
     font-size: 20px;
     color: rgba(41, 33, 38, 1);
 }
 
 .product-description {
-    font-family: 'Barlow';
     font-weight: 400;
     font-size: 20px;
     color: rgba(0, 0, 0, 1);
@@ -42,7 +41,6 @@
 }
 
 .purchase-options label {
-    font-family: 'Barlow';
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
