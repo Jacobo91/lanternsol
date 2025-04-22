@@ -10,7 +10,7 @@
                 <div class="info">
                     <span class="date">{{ block.settings.date_posted }}</span>
                     <h2 class="title">{{ block.settings.post_title }}</h2>
-                    <p class="ellipsis-2-lines text">{{ block.settings.post_text }}</p>
+                    {% comment %} <p class="ellipsis-2-lines text">{{ block.settings.post_text }}</p> {% endcomment %}
                 </div>
                 
                 <div class="link">
@@ -20,6 +20,7 @@
                     </a>
                 </div>
             </div>
+            <p class="ellipsis-2-lines text">{{ block.settings.post_text }}</p>
         </div>
     {% endfor %}
 </div>
