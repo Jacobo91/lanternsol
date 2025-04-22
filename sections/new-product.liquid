@@ -7,9 +7,17 @@
         <div class="new-collection-card__value-props">
             <span class="title">{{ section.settings.value_props_title }}</span>
             <div class="value-props__img-wrapper">
+<<<<<<< HEAD
+                {% for block in section.blocks %}                    
+                    <div class="value-prop">
+                        <img src="{{ section.blocks.settings.value_prop_image | image_url: width: 70 }}">
+                    </div>
+                {% endfor %}
+=======
                 <div class="value-prop">
                     <img>
                 </div>
+>>>>>>> 9c356a6760947aa044d6db73185c22c854988c91
             </div>
         </div>
     </a>
