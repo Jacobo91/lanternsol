@@ -1,0 +1,75 @@
+{{ 'blog-posts.css' | asset_url | stylesheet_tag }}
+<div id="posts-flex">
+    {% for block in section.blocks %}
+        <div class="post-wrapper">
+            <div class="post-img-wrapper">
+                <img src="{{ block.settings.image | image_url: width: 800 }}">
+            </div>
+
+            <div class="post-content">
+                <div class="info">
+                    <span>{{ block.settings.date_posted }}</span>
+                    <h2>{{ block.settings.post_title }}</h2>
+                    <p>{{ block.settings.post_text }}</p>
+                </div>
+
+                <div class="link">
+                    <a href="{{ block.settings.post_url }}" class="button button--primary">
+                        {{ block.settings.link_label }}
+                        <span class="mask"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+        "name": "blog posts",
+        "settings": [],
+        "blocks": [
+            {
+                "type": "post",
+                "name": "post",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "post image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "date_posted",
+                        "label": "date posted"
+                    },
+                    {
+                        "type": "text",
+                        "id": "post_title",
+                        "label": "post title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "post_text",
+                        "label": "post text",
+                    },
+                    {
+                        "type": "url",
+                        "id": "post_url",
+                        "label": "post url",
+                    },
+                    {
+                        "type": "text",
+                        "id": "link_label",
+                        "label": "link label",
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "blog posts"
+            }
+        ]
+    }
+{% endschema %}
