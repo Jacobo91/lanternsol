@@ -1,7 +1,7 @@
 {{ 'new-collection.css' | asset_url | stylesheet_tag }}
 <div class="new-collection-card pdp">
     <a href="{{ product.url }}">
-        <div class="img-wrapper">
+        <div class="img-wrapper pdp">
             <img src="{{ product.featured_image | image_url: width: 800 }}">
         </div>
     </a>
