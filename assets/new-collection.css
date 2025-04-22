@@ -4,6 +4,9 @@
     margin-inline: 240px;
     gap: 40px;
     align-items: center;
+}
+
+.new-collection-card > * {
     font-family: 'Barlow';
 }
 
