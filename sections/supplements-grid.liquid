@@ -20,7 +20,9 @@
             >
                 {% for product in section.settings.product_list %}
                     <li class="my-grid__item">
-
+                        <div>
+                            <img src="{{ product.featured_image | image_url: width: 800 }}">
+                        </div>
                     </li>
                 {% endfor %}
             </ul>
