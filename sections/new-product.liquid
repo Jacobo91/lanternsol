@@ -5,7 +5,7 @@
             <img src="{{ product.featured_image | image_url: width: 800 }}">
         </div>
         <div class="new-collection-card__value-props">
-            <span class="title"></span>
+            <span class="title">{{ section.settings.value_props_title }}</span>
             <div class="value-props__img-wrapper">
                 <img>
             </div>
@@ -73,7 +73,13 @@
 {% schema %}
     {
         "name": "new product",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "id": "value_props_title",
+                "label": "Value props title",
+            },
+        ],
         "presets": [
             {
                 "name": "new product"
