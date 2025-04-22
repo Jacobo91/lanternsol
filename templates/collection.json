@@ -134,8 +134,8 @@
         "button_hNDgwe": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "LEARN MORE ABOUT US",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
