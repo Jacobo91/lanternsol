@@ -29,7 +29,7 @@
     position: relative;
     line-height: 1.5em;
     max-height: 3em;
-    letter-spacing: -0.3px;
+    letter-spacing: 0.2px;
   }
   
 @media screen and (min-width: 750px) {
