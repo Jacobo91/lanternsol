@@ -163,6 +163,7 @@
               {%- endif -%}
             </div>
             {% when 'image_picker' %}
+            {% if block.settings.block_image_picker_1 and block.settings.block_image_picker_2 %}              
               <div>
                 <div id="banner-img-text-1__container">
                   <img src="{{ block.settings.block_image_picker_1 | image_url: width: 800 }}">
@@ -171,6 +172,7 @@
                   <img src="{{ block.settings.block_image_picker_2 | image_url: width: 800 }}">
                 </div>
               </div>
+            {% endif %}
               {%- when 'value_props' -%}
               <div id="value-props" class="value-props-wrapper">
                 <div class="value-prop-card">
