@@ -70,6 +70,7 @@
     line-height: 18px;
     color: rgba(0, 0, 0, 1);
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .subscription-wrapper__btns {
