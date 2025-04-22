@@ -236,24 +236,24 @@
         "heading_TBfyUF": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Sustainably Sourced Krill Oil",
             "heading_size": "h1"
           }
         },
         "text_6jAen4": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Our formula is three times more absorbable than standard fish oil, ensuring your body gets the nutrients it needs for optimal cardiovascular, joint, and brain health.",
             "text_style": "body"
           }
         },
         "buttons_iDqji3": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "LEARN MORE ABOUT US",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -272,7 +272,7 @@
         "desktop_content_position": "middle-right",
         "desktop_content_alignment": "left",
         "show_text_box": true,
-        "color_scheme": "scheme-83f03076-fd7a-45f0-856c-0983ad399dde",
+        "color_scheme": "scheme-d2d72404-91a6-4609-8b82-3f5a555eca5c",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
         "show_text_below": true
