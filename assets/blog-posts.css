@@ -5,6 +5,7 @@
     margin: 0 auto;
     align-items: center;
     padding: 77px 0 80px 0;
+    border: 1px solid;
 }
 
 @media screen and (min-width: 750px) {
