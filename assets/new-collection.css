@@ -97,6 +97,10 @@
     display: flex;
 }
 
+.atc-section form .quantity-wrapper button {
+    border: none;
+}
+
 .atc-section form input[name="quantity"] {
     width: 100%;
     font-family: 'Barlow';
