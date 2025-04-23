@@ -538,7 +538,6 @@
   }
   #shopify-section-template--24453778342204__image_with_text_3T7LqM {
     padding: 81px 100px 81px 70px;
-    background: black;
   }
 }
 
@@ -560,6 +559,10 @@
 }
 
 /* About Us */
+#shopify-section-template--24453778342204__image_with_text_3T7LqM {
+  background: black;
+}
+
 #shopify-section-template--24453778342204__image_with_text_3T7LqM .image-with-text__heading,
 #shopify-section-template--24453778342204__image_with_text_3T7LqM .image-with-text__text.rte.body > * {
   color: white;
