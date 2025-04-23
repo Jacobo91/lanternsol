@@ -52,10 +52,17 @@
         "content"
       ],
       "settings": {}
+    },
+    "disclaimer_pHpUpb": {
+      "type": "disclaimer",
+      "settings": {
+        "disclaimer_text": "(Disclaimer: the information is backed by research but intended for reference only. VitaLuxe Vitamin D3 + K1/K2 is not for use in the cure, mitigation, treatment, or prevention of any disease.)"
+      }
     }
   },
   "order": [
     "blog_banner_KVmxgm",
-    "main"
+    "main",
+    "disclaimer_pHpUpb"
   ]
 }
