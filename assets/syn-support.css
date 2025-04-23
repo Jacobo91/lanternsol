@@ -52,7 +52,7 @@
 }
 
 .value-prop__card > p {
-    margin: 0;
+    margin: 0 !important;
 }
 
 @media screen and (min-width: 1054px) {
