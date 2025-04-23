@@ -101,3 +101,7 @@ form .field__input {
 #ContactForm-body {
   align-self: center;
 }
+
+.field.ContactForm-body-container {
+  margin: 0;
+}
