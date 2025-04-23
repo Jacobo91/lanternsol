@@ -445,7 +445,7 @@
 }
 
 #shopify-section-template--24453778342204__image_with_text_mmL8K6 .image-with-text__media-item img {
-  height: 544px;
+  max-height: 544px;
 }
 
 #shopify-section-template--24453778112828__image_with_text_8Hiw8j .image-with-text__text.rte.body,
