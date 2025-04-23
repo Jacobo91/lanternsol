@@ -64,6 +64,7 @@ form .field__input {
   flex-basis: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 27px;
 }
 
 #ContactForm .contact__fields {
