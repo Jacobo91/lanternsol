@@ -1,7 +1,10 @@
+#new-collection {
+    padding-top: 80px;
+}
+
 .new-collection {
     display: grid;
     row-gap: 40px;
-    padding-top: 80px !important;
 }
 
 .new-collection-card {
