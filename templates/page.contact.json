@@ -79,11 +79,18 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "contact_banner_66AJ4B": {
+      "type": "contact-banner",
+      "settings": {
+        "bg_image": "shopify://shop_images/patients-checking-medical-treatment.png"
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "multicolumn_3W8b4k"
+    "multicolumn_3W8b4k",
+    "contact_banner_66AJ4B"
   ]
 }
