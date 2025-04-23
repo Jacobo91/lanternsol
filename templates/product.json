@@ -273,7 +273,9 @@
       ],
       "settings": {
         "title": "Synergistic Support with Vitamin K",
-        "subtitle": "<p>By combining Vitamin D3 with K1/K2, this formula enhances calcium </p><p>metabolism, ensuring it is deposited in the right places—strengthening bones </p><p>and protecting heart health.</p>"
+        "subtitle": "<p>By combining Vitamin D3 with K1/K2, this formula enhances calcium </p><p>metabolism, ensuring it is deposited in the right places—strengthening bones </p><p>and protecting heart health.</p>",
+        "bg_color": "#000000",
+        "txt_color": "#ffffff"
       }
     },
     "image_with_text_n6iNTA": {
