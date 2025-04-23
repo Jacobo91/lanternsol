@@ -262,7 +262,7 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_434.png",
-            "value_prop_text": "<p>Supports muscle function and boosts your immune system, helping your body stay strong and healthy.*</p>"
+            "value_prop_text": "<p>Supports muscle </p><p>function and boosts </p><p>your immune system,</p><p>helping your body stay </p><p>strong and healthy.*</p>"
           }
         }
       },
