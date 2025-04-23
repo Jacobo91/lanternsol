@@ -38,6 +38,8 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 90%;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .about-us__info p {
