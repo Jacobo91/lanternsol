@@ -251,3 +251,7 @@
   line-height: 160%;
   letter-spacing: 0%;
 }
+
+.multicolumn-card__info:nth-of-type(2) {
+  max-width: 320px;
+}
