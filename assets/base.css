@@ -3848,3 +3848,8 @@ details-disclosure > details {
     font-size: 20px;
   }
 }
+
+/* blog post article */
+.article-template > * {
+  font-family: 'Barlow';
+}
