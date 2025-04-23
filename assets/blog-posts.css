@@ -88,7 +88,6 @@
        grid-row: 1;
        grid-column: 2;
        max-width: 650px;
-       margin-top: 140px;
     }
     .info {
         flex-basis: 73%;
