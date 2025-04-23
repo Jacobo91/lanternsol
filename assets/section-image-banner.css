@@ -595,3 +595,7 @@
 #Banner-template--24453778145596__image_banner_FFaxng .value-props__info {
   justify-items: center;
 }
+
+.value-prop__text {
+  line-height: 16px;
+}
