@@ -75,7 +75,7 @@
     .post-content {
         display: grid;
         padding-right: 100px;
-        column-gap: 52px;
+        column-gap: 58px;
     }
     .text-wrapper {
        max-width: 650px;
