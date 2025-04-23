@@ -2,6 +2,11 @@
     background: rgba(0, 0, 0, 1);
     height: 500px;
 }
+
+.blog-banner__wrapper {
+    display: flex;
+}
+
 .blog-banner h1,
 .blog-banner span {
     color: #fff;
