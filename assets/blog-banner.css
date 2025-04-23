@@ -12,6 +12,10 @@
     max-width: 700px;
 }
 
+.blog-banner__wrapper > * {
+    font-family: 'Barlow';
+}
+
 .blog-banner h1,
 .blog-banner span {
     color: #fff;
@@ -19,8 +23,13 @@
 
 .blog-banner h1 {
     margin: 0 0 40px 0;
-    font-family: 'Barlow';
     font-weight: 700;
     font-size: 52px;
     line-height: 90%;
+}
+
+.blog-banner span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
 }
