@@ -73,7 +73,7 @@
         width: 305px;
     }
     .post-content {
-        display: flex;
+        display: grid;
         padding-right: 100px;
         column-gap: 52px;
     }
