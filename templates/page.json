@@ -129,7 +129,7 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/about-us-icon-1.png",
-            "value_prop_text": "<p>Every formula is </p><p>crafted by  healthcare </p><p>providers and experts, </p><p>ensuring them to be both effective and </p><p>trustworthy.</p>"
+            "value_prop_text": "<p>Every formula is </p><p>crafted by  healthcare </p><p>providers and experts, </p><p>ensuring them to be </p><p>both effective and </p><p>trustworthy.</p>"
           }
         }
       },
