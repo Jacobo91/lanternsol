@@ -1,6 +1,8 @@
 .blog-banner {
     background: rgba(0, 0, 0, 1);
+    height: 500px;
 }
-.blog-banner h1 {
+.blog-banner h1,
+.blog-banner span {
     color: #fff;
 }
