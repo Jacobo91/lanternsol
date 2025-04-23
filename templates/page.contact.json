@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "title": "Stay Connected",
-            "text": "<p>Join our community for the latest updates, health tips, and exclusive offers.Follow Us on Social Media:</p>",
+            "text": "<p>Join our community for the latest </p><p>updates, health tips, and exclusive offers.</p><p>Follow Us on Social Media:</p>",
             "link_label": "",
             "link": ""
           }
