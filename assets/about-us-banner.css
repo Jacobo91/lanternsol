@@ -37,3 +37,10 @@
     font-size: 52px;
     line-height: 90%;
 }
+
+.about-us__info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    vertical-align: middle;
+}
