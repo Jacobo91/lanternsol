@@ -5,7 +5,7 @@
     </div>
 
     <div class="about-us__mask">
-
+        <img src="{{ section.settings.mask | image_url: width: 1440 }}">
     </div>
 
     <div class="about-us__info">
@@ -22,6 +22,11 @@
                 "type": "image_picker",
                 "id": "bg_image",
                 "label": "bg image"
+            },
+            {
+                "type": "image_picker",
+                "id": "mask",
+                "label": "mask"
             },
             {
                 "type": "text",
