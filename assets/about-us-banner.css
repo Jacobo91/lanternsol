@@ -1,5 +1,5 @@
 .about-us-container {
-    /* height: 686px; */
+    display: grid;
 }
 
 .about-us__bg {
