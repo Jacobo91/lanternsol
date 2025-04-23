@@ -158,7 +158,7 @@
       "settings": {
         "title": "Our Philosophy",
         "subtitle": "<p>We are more than just supplements; we are your partners in health and </p><p>wellness. Our approach to wellness is rooted in three core values:</p>",
-        "bg_color": "#ffffff",
+        "bg_color": "#ebebeb",
         "txt_color": "#000000",
         "is_about_us": true
       }
