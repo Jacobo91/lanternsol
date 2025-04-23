@@ -1,7 +1,7 @@
 .new-collection {
     display: grid;
     row-gap: 40px;
-    padding-top: 80px;
+    padding-top: 80px !important;
 }
 
 .new-collection-card {
