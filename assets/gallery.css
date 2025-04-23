@@ -71,6 +71,10 @@ p {
     max-height: 3em;
   }
   
+.read-more {
+    text-transform: uppercase;
+}
+
   @media screen and (min-width: 780px) {
     .you-may-enjoy-gallery {
         display: flex;
