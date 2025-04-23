@@ -61,12 +61,12 @@
         line-height: 90%;
         text-transform: uppercase;
     }
-    /* .text {
+    .text {
         margin: 0;
         font-weight: 400;
         font-size: 20px;
         line-height: 160%;
-    } */
+    }
     #posts-flex {
         padding: 77px 20px 80px 20px;
     }
