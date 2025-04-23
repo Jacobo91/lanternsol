@@ -1,6 +1,6 @@
 #syn-support {
     background: rgba(0, 0, 0, 1);
-    padding: 60px 0 0 0;
+    padding: 60px 0 80px 0;
 }
 
 .syn-support-wrapper {
@@ -40,7 +40,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 0px;
+    line-height: 160%;
 }
 
 .value-prop__card p {
@@ -51,10 +52,19 @@
     text-wrap: stable;
 }
 
+.value-prop__card > p {
+    margin: 0 !important;
+}
+
+.vp-img-wrapper {
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1054px) {
     .value-props {
         display: flex;
         flex-direction: row;
         column-gap: 11px;
+        justify-content: space-around;
     }
 }
