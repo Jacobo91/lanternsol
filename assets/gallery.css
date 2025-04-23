@@ -9,6 +9,15 @@ h3 {
     color: rgba(0, 0, 0, 1);
 }
 
+h4 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
 .you-may-enjoy-gallery {
     display: flex;
     flex-wrap: wrap;
