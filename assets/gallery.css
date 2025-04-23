@@ -38,8 +38,8 @@ p {
 }
 
 .yme-card {
-    flex: 1 1 calc((100% - 10px) / 2);
-    max-width: calc((100% - 10px) / 2);
+    flex: 1 1 calc((50% - 10px) / 2);
+    max-width: calc((50% - 10px) / 2);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
