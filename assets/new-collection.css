@@ -189,6 +189,11 @@
 
 .new-collection-card.pdp a {
     text-decoration: none;
+    background: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .new-collection-card__value-props .title {
