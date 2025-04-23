@@ -139,7 +139,7 @@
         row-gap: 0px;
     }
     .new-collection-card {
-        gap: 110px;
+        gap: 0px;
         height: 495px;
     }
 }
