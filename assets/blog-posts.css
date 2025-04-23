@@ -77,11 +77,12 @@
     }
     
     .post-img-wrapper {
-        height: 245px;
+        height: auto;
 
     }
     .post-img-wrapper img {
         width: 305px;
+        height: 245px;
     }
     .post-content {
         display: grid;
