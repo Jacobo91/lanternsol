@@ -1,14 +1,14 @@
 {{ 'gallery.css' | asset_url | stylesheet_tag }}
 <div id="you-may-enjoy" class="you-may-enjoy-wrapper scroll-trigger animate--slide-in">
     <h3>{{ section.settings.title }}</h3>
-    <div class="you-may-enjoy-gallery">
+    <div class="you-may-enjoy-gallery article-template__content page-width page-width--narrow">
         {% for block in section.blocks %}            
             <div class="yme-card">
                 <div>
                     <img src="{{ block.settings.image | image_url: width: 800 }}">
                 </div>
-                <h4>{{ block.settings.card_title }}</h4>
-                <p>{{ block.settings.card_text }}</p>
+                <h4 class="yme-card-title-{{ forloop.index }}">{{ block.settings.card_title }}</h4>
+                <p class="ellipsis-3-lines index-{{ forloop.index }}">{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
     </div>
