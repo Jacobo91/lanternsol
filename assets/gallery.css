@@ -31,13 +31,12 @@ p {
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 30px;
-    /* max-width: 690px; */
     margin: 0 auto;
     justify-content: stretch;
 }
 
 .yme-card {
-    flex: 1 1 calc((100% - 40px) / 3); /* 2 gaps of 20px between 3 items */
+    flex: 1 1 calc((100% - 40px) / 3);
     max-width: calc((100% - 40px) / 3);
     box-sizing: border-box;
     display: flex;
@@ -49,3 +48,14 @@ p {
     height: 100%;
     object-fit: cover;
 }
+
+.ellipsis-3-lines {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+    max-height: 3em;
+  }
+  
