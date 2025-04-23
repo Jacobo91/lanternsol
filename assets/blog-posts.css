@@ -70,7 +70,6 @@
         border: 1px solid rgba(233, 18, 138, 1);
     }
     .post-img-wrapper {
-        width: 437px;
         height: 245px;
         grid-row: 1;
         grid-column: 1;
