@@ -147,7 +147,10 @@
         "post_nHDetK",
         "post_jPMeWr"
       ],
-      "settings": {}
+      "settings": {
+        "read_more": "read more",
+        "read_more_url": "shopify://blogs/meta"
+      }
     }
   },
   "order": [
