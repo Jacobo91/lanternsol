@@ -60,8 +60,12 @@
     margin-block: 20px;
 }
 
-.vp-title > p {
-    margin: 0;
+.vp-title + p {
+   margin: 0 !important;
+}
+
+.vp-title + p + p {
+   margin: 0;
 }
 
 @media screen and (min-width: 1054px) {
