@@ -1,3 +1,7 @@
+#new-collection {
+    padding-top: 80px;
+}
+
 .new-collection {
     display: grid;
     row-gap: 40px;
@@ -15,7 +19,7 @@
     .new-collection-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-inline: 240px;
+        margin-inline: 70px;
         gap: 40px;
         align-items: center;
         font-family: 'Barlow';
@@ -44,6 +48,11 @@
 
 .new-collection-card:nth-child(even) {
     direction: rtl;
+}
+
+.product-info {
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .new-collection-card:nth-child(even) .product-info {
