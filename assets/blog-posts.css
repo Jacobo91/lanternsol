@@ -94,7 +94,7 @@
     .info {
        grid-column: 1;
     }
-    .link {
+    .post-content .link {
         grid-column: 2;
     }
     .text-wrapper {
