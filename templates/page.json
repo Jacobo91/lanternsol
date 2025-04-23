@@ -124,6 +124,18 @@
     },
     "syn_support_EgNknb": {
       "type": "syn-support",
+      "blocks": {
+        "value_prop_f987bj": {
+          "type": "value-prop",
+          "settings": {
+            "value_prop_image": "shopify://shop_images/about-us-icon-1.png",
+            "value_prop_text": "<p>Every formula is </p><p>crafted by  healthcare </p><p>providers and experts, </p><p>ensuring them to be both effective and </p><p>trustworthy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "value_prop_f987bj"
+      ],
       "settings": {
         "title": "Our Philosophy",
         "subtitle": "<p>We are more than just supplements; we are your partners in health and </p><p>wellness. Our approach to wellness is rooted in three core values:</p>",
