@@ -3859,3 +3859,8 @@ details-disclosure > details {
   line-height: 160%;
   letter-spacing: 0%;
 }
+.article-template h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110.00000000000001%;
+}
