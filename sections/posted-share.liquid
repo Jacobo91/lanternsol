@@ -2,7 +2,25 @@
 <div class="article-template__content page-width page-width--narrow rte scroll-trigger animate--slide-in" id="posted-share">
     <span></span>
     <a class="button button--primary">
-
+        {{ section.settings.text }}
         <span class="mask"></span>
     </a>
 </div>
+
+{% schema %}
+    {
+        "name": "posted share",
+        "settings": [
+            {
+                "type": "text",
+                "id": "text",
+                "label": "anchor text"
+            },
+        ],
+        "presets": [
+            {
+                "name": "posted share"
+            }
+        ]
+    }
+{% endschema %}
