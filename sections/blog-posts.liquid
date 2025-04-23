@@ -1,7 +1,7 @@
 {{ 'blog-posts.css' | asset_url | stylesheet_tag }}
 <div id="posts-flex">
     {% for block in section.blocks %}
-        <div class="post-wrapper">
+        <div class="post-wrapper scroll-trigger animate--slide-in">
             <div class="post-img-wrapper">
                 <img src="{{ block.settings.image | image_url: width: 800 }}">
             </div>
