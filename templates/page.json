@@ -146,7 +146,7 @@
           "settings": {
             "value_prop_image": "shopify://shop_images/about-us-icon3.png",
             "value_prop_text": "<p>Your health journey is </p><p>unique, and we’re here </p><p>to support you with </p><p>products designed for </p><p>your specific goals and </p><p>needs.</p>",
-            "value_prop_title": ""
+            "value_prop_title": "<p>Empathy and </p><p>Support:</p>"
           }
         }
       },
