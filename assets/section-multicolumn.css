@@ -260,3 +260,8 @@
 .multicolumn-list #Slide-template--24453778276668__multicolumn_3W8b4k-2 .multicolumn-card__info {
   max-width: 320px;
 }
+
+.social-icons {
+  margin-top: 26px;
+  display: flex;
+}
