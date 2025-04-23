@@ -64,8 +64,8 @@
 .vp-title + p + p {
     font-family: 'Barlow';
     font-weight: 700 !important;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 14px !important;
+    line-height: 18px !important;
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
