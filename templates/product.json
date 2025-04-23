@@ -255,7 +255,7 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_436.png",
-            "value_prop_text": "<p>Promotes healthy arterial function, supporting cardiovascular wellness by preventing the buildup of calcium in blood vessels.*</p>"
+            "value_prop_text": "<p>Promotes healthy arterial </p><p>function, supporting </p><p>cardiovascular wellness </p><p>by preventing the buildup </p><p>of calcium in blood </p><p>vessels.*</p>"
           }
         },
         "value_prop_nhLMzP": {
