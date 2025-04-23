@@ -17,7 +17,9 @@
                 <div class="value-prop__card">
                     <div class="vp-img-wrapper">
                         <img src="{{ block.settings.value_prop_image | image_url: width: 400 }}">
-                        <p class="vp-title">{{ block.settings.value_prop_title }}</p>
+                        {% if section.settings.is_about_us == true %}
+                            <p class="vp-title">{{ block.settings.value_prop_title }}</p>
+                        {% endif %}
                     </div>
                     <p>{{ block.settings.value_prop_text }}</p>
                 </div>
