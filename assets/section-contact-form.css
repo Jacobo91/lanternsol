@@ -66,6 +66,10 @@ form .field__input {
   grid-template-columns: repeat(2, 1fr);
 }
 
+#ContactForm .contact__fields {
+  display: block;
+}
+
 .contact .contact__button {
   margin: 0;
   position: absolute;
