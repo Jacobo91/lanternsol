@@ -86,3 +86,7 @@ form .field__input {
   text-transform: uppercase;
   letter-spacing: 0px;
 }
+
+#ContactForm #ContactForm-body {
+  margin: 0;
+}
