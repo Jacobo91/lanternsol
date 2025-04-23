@@ -56,6 +56,10 @@
     margin: 0 !important;
 }
 
+.vp-img-wrapper {
+    margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1054px) {
     .value-props {
         display: flex;
