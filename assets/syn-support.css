@@ -49,6 +49,9 @@
     line-height: 160%;
     text-align: center;
     text-wrap: stable;
+}
+
+.value-prop__card > p {
     margin: 0;
 }
 
