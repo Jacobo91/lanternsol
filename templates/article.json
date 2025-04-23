@@ -65,12 +65,77 @@
         "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team",
         "text": "share"
       }
+    },
+    "gallery_enBJNT": {
+      "type": "gallery",
+      "blocks": {
+        "yme_card_rJ3a6q": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq1.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        },
+        "yme_card_YegMeH": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq2.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        },
+        "yme_card_jcdkcL": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq3.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        },
+        "yme_card_bpNLgt": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq4.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        },
+        "yme_card_Meq3aF": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq5.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        },
+        "yme_card_niD6BW": {
+          "type": "yme-card",
+          "settings": {
+            "image": "shopify://shop_images/sq6.png",
+            "card_title": "",
+            "card_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "yme_card_rJ3a6q",
+        "yme_card_YegMeH",
+        "yme_card_jcdkcL",
+        "yme_card_bpNLgt",
+        "yme_card_Meq3aF",
+        "yme_card_niD6BW"
+      ],
+      "settings": {
+        "title": "Other Articles You May Enjoy"
+      }
     }
   },
   "order": [
     "blog_banner_KVmxgm",
     "main",
     "disclaimer_pHpUpb",
-    "posted_share_PbDUEG"
+    "posted_share_PbDUEG",
+    "gallery_enBJNT"
   ]
 }
