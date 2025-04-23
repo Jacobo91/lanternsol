@@ -68,7 +68,13 @@ form .field__input {
 }
 
 #ContactForm .contact__fields {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact__fields .field {
+  margin: 0;
 }
 
 .contact .contact__button {
