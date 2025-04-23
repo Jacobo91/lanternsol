@@ -248,21 +248,21 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_435.png",
-            "value_prop_text": "Helps maintain strong bones by improving calcium absorption and directing calcium to where it’s needed most—your bones.*"
+            "value_prop_text": "<p>Helps maintain strong </p><p>bones by improving </p><p>calcium absorption </p><p>and directing calcium </p><p>to where it’s needed </p><p>most—your bones.*</p>"
           }
         },
         "value_prop_bXNej4": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_436.png",
-            "value_prop_text": "Promotes healthy arterial function, supporting cardiovascular wellness by preventing the buildup of calcium in blood vessels.*"
+            "value_prop_text": "<p>Promotes healthy arterial function, supporting cardiovascular wellness by preventing the buildup of calcium in blood vessels.*</p>"
           }
         },
         "value_prop_nhLMzP": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_434.png",
-            "value_prop_text": "Supports muscle function and boosts your immune system, helping your body stay strong and healthy.*"
+            "value_prop_text": "<p>Supports muscle function and boosts your immune system, helping your body stay strong and healthy.*</p>"
           }
         }
       },
@@ -273,7 +273,7 @@
       ],
       "settings": {
         "title": "Synergistic Support with Vitamin K",
-        "subtitle": "By combining <strong>Vitamin D3 with K1/K2</strong>, this formula enhances calcium   metabolism, ensuring it is deposited in the right places—strengthening bones   and protecting heart health."
+        "subtitle": "By combining Vitamin D3 with K1/K2, this formula enhances calcium   metabolism, ensuring it is deposited in the right places—strengthening bones   and protecting heart health."
       }
     },
     "image_with_text_n6iNTA": {
