@@ -58,6 +58,9 @@
 
 .vp-img-wrapper {
     margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vp-title + p,
