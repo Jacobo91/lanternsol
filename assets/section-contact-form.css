@@ -58,4 +58,5 @@ form .field__input {
 
 .contact .contact__button {
   margin: 0;
+  position: absolute;
 }
