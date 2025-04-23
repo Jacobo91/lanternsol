@@ -87,6 +87,11 @@ form .field__input {
   letter-spacing: 0px;
 }
 
+.ContactForm-body-container {
+  background: #3f3c3c;
+  border: 15px;
+}
+
 #ContactForm-body {
   align-self: center;
 }
