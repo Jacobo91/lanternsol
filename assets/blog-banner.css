@@ -19,4 +19,8 @@
 
 .blog-banner h1 {
     margin: 0;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
 }
