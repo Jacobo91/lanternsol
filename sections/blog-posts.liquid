@@ -8,26 +8,40 @@
 
             <div class="post-content">
                 <div class="info">
-                    <span>{{ block.settings.date_posted }}</span>
-                    <h2>{{ block.settings.post_title }}</h2>
-                    <p>{{ block.settings.post_text }}</p>
+                    <span class="date">{{ block.settings.date_posted }}</span>
+                    <h2 class="title">{{ block.settings.post_title }}</h2>
+                    {% comment %} <p class="ellipsis-2-lines text">{{ block.settings.post_text }}</p> {% endcomment %}
                 </div>
-
+                
                 <div class="link">
-                    <a href="{{ block.settings.post_url }}" class="button button--primary">
+                    <a href="{{ block.settings.post_url }}" class="button button--primary nowrap">
                         {{ block.settings.link_label }}
                         <span class="mask"></span>
                     </a>
                 </div>
+                <div class="text-wrapper">
+                    <p class="ellipsis-2-lines text">{{ block.settings.post_text }}</p>
+                </div>
             </div>
+
         </div>
     {% endfor %}
+    <a href="{{ block.settings.post_url }}" class="button button--primary nowrap read-more">
+        {{ section.settings.read_more }}
+        <span class="mask"></span>
+    </a>
 </div>
 
 {% schema %}
     {
         "name": "blog posts",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "id": "read_more",
+                "label": "bottom button"
+            },
+        ],
         "blocks": [
             {
                 "type": "post",
