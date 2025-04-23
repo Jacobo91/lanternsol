@@ -11,6 +11,10 @@
                 <p class="ellipsis-3-lines index-{{ forloop.index }}">{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
+        <a class="read-more button button--primary">
+            {{ section.settings.link_btn }}
+            <span class="mask"></span>
+        </a>
     </div>
 </div>
 
@@ -22,7 +26,12 @@
                 "type": "text",
                 "id": "title",
                 "label": "section title",
-            }
+            },
+            {
+                "type": "text",
+                "id": "link_btn",
+                "label": "button text"
+            },
         ],
         "blocks": [
             {
