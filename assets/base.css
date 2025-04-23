@@ -3853,3 +3853,9 @@ details-disclosure > details {
 .article-template > * {
   font-family: 'Barlow';
 }
+.article-template p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
