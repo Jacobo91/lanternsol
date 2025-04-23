@@ -56,7 +56,12 @@ form .field__input {
   max-width: 300px;
 }
 
+#ContactForm {
+  position: relative;
+}
+
 .contact .contact__button {
   margin: 0;
   position: absolute;
+  bottom: 0;
 }
