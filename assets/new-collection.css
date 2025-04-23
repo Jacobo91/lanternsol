@@ -185,6 +185,14 @@
     gap: 25px;
 }
 
+#new-collection a {
+    background: #ebebeb;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* value props */
 
 .new-collection-card.pdp a {
