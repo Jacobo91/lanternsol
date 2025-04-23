@@ -89,6 +89,7 @@
        grid-column: 2;
        /* align-self:flex-end; */
        max-width: 650px;
+       margin-top: 140px;
     }
     .info {
         flex-basis: 73%;
