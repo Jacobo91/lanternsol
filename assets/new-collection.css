@@ -46,6 +46,11 @@
     direction: rtl;
 }
 
+.product-info {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
 .new-collection-card:nth-child(even) .product-info {
     direction: ltr;
 }
