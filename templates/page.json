@@ -129,21 +129,24 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/about-us-icon-1.png",
-            "value_prop_text": "<p>Every formula is </p><p>crafted by  healthcare </p><p>providers and experts, </p><p>ensuring them to be </p><p>both effective and </p><p>trustworthy.</p>"
+            "value_prop_text": "<p>Every formula is </p><p>crafted by  healthcare </p><p>providers and experts, </p><p>ensuring them to be </p><p>both effective and </p><p>trustworthy.</p>",
+            "value_prop_title": "<p>Clinical </p><p>Expertise:</p>"
           }
         },
         "value_prop_i6wD9V": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/about-us-icon-2.png",
-            "value_prop_text": "<p>We believe wellness </p><p>starts with knowledge. </p><p>We are transparent in </p><p>everything we do, from </p><p>ingredient sourcing to </p><p>product development.</p>"
+            "value_prop_text": "<p>We believe wellness </p><p>starts with knowledge. </p><p>We are transparent in </p><p>everything we do, from </p><p>ingredient sourcing to </p><p>product development.</p>",
+            "value_prop_title": ""
           }
         },
         "value_prop_VNi6UG": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/about-us-icon3.png",
-            "value_prop_text": "<p>Your health journey is </p><p>unique, and we’re here </p><p>to support you with </p><p>products designed for </p><p>your specific goals and </p><p>needs.</p>"
+            "value_prop_text": "<p>Your health journey is </p><p>unique, and we’re here </p><p>to support you with </p><p>products designed for </p><p>your specific goals and </p><p>needs.</p>",
+            "value_prop_title": ""
           }
         }
       },
@@ -156,7 +159,8 @@
         "title": "Our Philosophy",
         "subtitle": "<p>We are more than just supplements; we are your partners in health and </p><p>wellness. Our approach to wellness is rooted in three core values:</p>",
         "bg_color": "#ffffff",
-        "txt_color": "#000000"
+        "txt_color": "#000000",
+        "is_about_us": true
       }
     }
   },
