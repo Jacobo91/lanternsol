@@ -63,6 +63,10 @@
     align-items: center;
 }
 
+.vp-img-wrapper.about-us img {
+    margin-bottom: 19px;
+}
+
 .vp-title + p,
 .vp-title + p + p {
     font-family: 'Barlow';
