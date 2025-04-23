@@ -24,7 +24,7 @@ p {
     font-family: 'Barlow';
     font-weight: 400;
     font-size: 14px;
-    line-height: 1em;
+    line-height: 16px;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@ p {
     -webkit-line-clamp: 3;
     overflow: hidden;
     position: relative;
-    line-height: 1.5em;
+    /* line-height: 1.5em; */
     max-height: 5em;
   }
   
