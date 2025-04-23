@@ -1,6 +1,6 @@
 {{ 'posted-share.css' | asset_url | stylesheet_tag }}
 <div class="article-template__content page-width page-width--narrow scroll-trigger animate--slide-in" id="posted-share">
-    <span>{{ section.settings.date_posted }}</span>
+    <span class="posted_in">{{ section.settings.date_posted }}</span>
     <a class="button button--primary share">
         {{ section.settings.text }}
         {% render 'share-arrow' %}
