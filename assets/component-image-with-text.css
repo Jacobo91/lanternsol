@@ -539,6 +539,9 @@
   #shopify-section-template--24453778342204__image_with_text_3T7LqM {
     padding: 81px 100px 81px 70px;
   }
+  #ImageWithText--template--24453778342204__image_with_text_3T7LqM {
+    padding: 0;
+  }
 }
 
 /* blog */
@@ -572,6 +575,3 @@
   max-width: 323px;
 }
 
-#ImageWithText--template--24453778342204__image_with_text_3T7LqM {
-  padding: 0;
-}
