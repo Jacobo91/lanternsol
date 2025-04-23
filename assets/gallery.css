@@ -34,7 +34,7 @@ p {
     column-gap: 20px;
     row-gap: 30px;
     margin: 0 auto;
-    justify-content: stretch;
+    justify-content: center;
 }
 
 .yme-card {
