@@ -41,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+    line-height: 160%;
 }
 
 .value-prop__card p {
