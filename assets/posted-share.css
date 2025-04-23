@@ -1,0 +1,22 @@
+#posted-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.share {
+    color: #FFF !important;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow';
+    font-weight: 500;
+}
+.posted_in {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
