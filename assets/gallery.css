@@ -14,8 +14,14 @@ h4 {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: 0%;
     text-transform: uppercase;
+}
+
+p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 .you-may-enjoy-gallery {
