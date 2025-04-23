@@ -235,8 +235,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-3206269c-e6cb-4c2d-9e36-e52e776e017b",
+        "color_scheme": "scheme-3206269c-e6cb-4c2d-9e36-e52e776e017b",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -248,21 +248,24 @@
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_435.png",
-            "value_prop_text": "<p>Helps maintain strong </p><p>bones by improving </p><p>calcium absorption </p><p>and directing calcium </p><p>to where it’s needed </p><p>most—your bones.*</p>"
+            "value_prop_text": "<p>Helps maintain strong </p><p>bones by improving </p><p>calcium absorption </p><p>and directing calcium </p><p>to where it’s needed </p><p>most—your bones.*</p>",
+            "value_prop_title": ""
           }
         },
         "value_prop_bXNej4": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_436.png",
-            "value_prop_text": "<p>Promotes healthy arterial </p><p>function, supporting </p><p>cardiovascular wellness </p><p>by preventing the buildup </p><p>of calcium in blood </p><p>vessels.*</p>"
+            "value_prop_text": "<p>Promotes healthy arterial </p><p>function, supporting </p><p>cardiovascular wellness </p><p>by preventing the buildup </p><p>of calcium in blood </p><p>vessels.*</p>",
+            "value_prop_title": ""
           }
         },
         "value_prop_nhLMzP": {
           "type": "value-prop",
           "settings": {
             "value_prop_image": "shopify://shop_images/Group_434.png",
-            "value_prop_text": "<p>Supports muscle </p><p>function and boosts </p><p>your immune system,</p><p>helping your body stay </p><p>strong and healthy.*</p>"
+            "value_prop_text": "<p>Supports muscle </p><p>function and boosts </p><p>your immune system,</p><p>helping your body stay </p><p>strong and healthy.*</p>",
+            "value_prop_title": ""
           }
         }
       },
@@ -275,7 +278,8 @@
         "title": "Synergistic Support with Vitamin K",
         "subtitle": "<p>By combining Vitamin D3 with K1/K2, this formula enhances calcium </p><p>metabolism, ensuring it is deposited in the right places—strengthening bones </p><p>and protecting heart health.</p>",
         "bg_color": "#000000",
-        "txt_color": "#ffffff"
+        "txt_color": "#ffffff",
+        "is_about_us": false
       }
     },
     "image_with_text_n6iNTA": {
