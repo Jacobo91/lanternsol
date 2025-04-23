@@ -231,3 +231,23 @@
     display: list-item;
   }
 }
+
+/* customs */
+
+.multicolumn-card__info .inline-richtext {
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 90%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.multicolumn-card__info .rte {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
