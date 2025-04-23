@@ -24,12 +24,12 @@
 .blog-banner h1 {
     margin: 0 0 40px 0;
     font-weight: 700;
-    font-size: 52px;
+    font-size: clamp(26px, 5vw, 52px);
     line-height: 90%;
 }
 
 .blog-banner span {
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(14px, 4vw, 20px);
     line-height: 160%;
 }
