@@ -1,3 +1,8 @@
+.contact {
+  display: flex;
+  align-items: center;
+}
+
 .contact img {
   max-width: 100%;
 }
@@ -41,4 +46,12 @@
 form .field__input {
   background: #3f3c3c;
   border-radius: 15px;
+}
+
+.contact .title {
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 90%;
+  letter-spacing: 0px;
 }
