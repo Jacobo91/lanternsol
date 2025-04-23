@@ -1,4 +1,6 @@
 .blog-banner {
     background: rgba(0, 0, 0, 1);
+}
+.blog-banner > * {
     color: #fff;
 }
