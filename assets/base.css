@@ -3872,3 +3872,7 @@ details-disclosure > details {
   font-size: 20px;
   line-height: 160%;
 }
+
+.article-template__link.link {
+  display: none;
+}
