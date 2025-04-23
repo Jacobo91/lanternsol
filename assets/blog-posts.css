@@ -41,6 +41,11 @@
     text-wrap: nowrap;
   }
   
+  .read-more {
+    display: block;
+    margin: 0 auto;
+  }
+
 @media screen and (min-width: 1054px) {
     .date {
         font-weight: 400;
