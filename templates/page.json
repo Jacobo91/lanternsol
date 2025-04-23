@@ -22,7 +22,7 @@
       "settings": {
         "bg_image": "shopify://shop_images/Rectangle_14.png",
         "title": "About Us",
-        "text": "<p>Founded by Dr. Carlos Sanchez and Dawn Kirstine, we are a healthcare provider-driven brand committed to enhancing both beauty and wellness. With our extensive backgrounds in medicine and patient care, we’ve dedicated ourselves to creating a holistic space that combines aesthetic excellence with health-focused supplements to empower individuals on their journey to optimal well-being.</p>"
+        "text": "<p>Founded by Dr. Carlos Sanchez and Dawn Kirstine, we are a healthcare </p><p>provider-driven brand committed to enhancing both beauty and wellness. </p><p>With our extensive backgrounds in medicine and patient care, we’ve </p><p>dedicated ourselves to creating a holistic space that combines aesthetic </p><p>excellence with health-focused supplements to empower individuals on their </p><p>journey to optimal well-being.</p>"
       }
     }
   },
