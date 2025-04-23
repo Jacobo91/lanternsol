@@ -1,0 +1,46 @@
+.about-us-container {
+    display: grid;
+    justify-content: center;
+    align-items: flex-end;
+}   
+
+.about-us__bg {
+    width: 100%;
+    height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.about-us__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us__mask {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.about-us__info {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.about-us__info > * {
+    font-family: 'Barlow';
+}
+
+.about-us__info h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
+}
+
+.about-us__info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    vertical-align: middle;
+}
