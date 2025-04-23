@@ -49,5 +49,9 @@ form .field__input {
 }
 
 .contact .title {
-  color: red;
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 90%;
+  letter-spacing: 0px;
 }
