@@ -1,3 +1,8 @@
+.contact {
+  display: flex;
+  align-items: center;
+}
+
 .contact img {
   max-width: 100%;
 }
