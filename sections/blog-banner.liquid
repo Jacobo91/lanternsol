@@ -1,5 +1,5 @@
 {{ 'blog-banner.css' | asset_url | stylesheet_tag }}
-<div class="blog-banner color-scheme--{{ section.settings.color_scheme }}">
+<div class="blog-banner">
     <div class="page-width">
         <h1>{{ section.settings.title }}</h1>
         <span>{{ section.settings.date_posted }}</span>
@@ -19,12 +19,6 @@
                 "type": "text",
                 "id": "date_posted",
                 "label": "date posted"
-            },
-            {
-                "type": "color_scheme",
-                "id": "color_scheme",
-                "label": "Color Scheme",
-                "default": "scheme_9"
             }
         ],
         "presets": [
