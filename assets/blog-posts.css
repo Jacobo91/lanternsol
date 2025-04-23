@@ -49,7 +49,7 @@
     display: flex;
   }
 
-@media screen and (min-width: 1054px) {
+@media screen and (min-width: 1440px) {
     .date {
         font-weight: 400;
         font-size: 14px;
@@ -79,7 +79,6 @@
     
     .post-img-wrapper {
         height: 245px;
-
     }
     .post-img-wrapper img {
         width: 305px;
@@ -95,7 +94,7 @@
     .info {
        grid-column: 1;
     }
-    .link {
+    .post-content .link {
         grid-column: 2;
     }
     .text-wrapper {
