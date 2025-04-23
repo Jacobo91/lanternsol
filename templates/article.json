@@ -128,7 +128,8 @@
       ],
       "settings": {
         "title": "Other Articles You May Enjoy",
-        "link_btn": "read more"
+        "link_btn": "read more",
+        "url": "shopify://blogs/meta"
       }
     }
   },
