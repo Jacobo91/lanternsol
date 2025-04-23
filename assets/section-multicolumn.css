@@ -240,7 +240,8 @@
   font-size: 28px;
   line-height: 90%;
   letter-spacing: 0%;
-  text-transform: uppercase;  
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .multicolumn-card__info .rte {
