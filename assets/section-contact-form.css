@@ -1,6 +1,5 @@
 .contact {
   display: flex;
-  align-items: center;
 }
 
 .contact img {
@@ -55,4 +54,8 @@ form .field__input {
   line-height: 90%;
   letter-spacing: 0px;
   max-width: 300px;
+}
+
+.contact .contact__button {
+  margin: 0;
 }
