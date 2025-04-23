@@ -44,9 +44,17 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "blog_banner_KVmxgm": {
+      "type": "blog-banner",
+      "settings": {
+        "title": "Unlocking the Power of Vitamin D3 and K2: Why This Duo is Essential for Your Health",
+        "date_posted": "Posted on November 8, 2024 | By VitaLuxe Health Team"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "blog_banner_KVmxgm"
   ]
 }
