@@ -11,7 +11,7 @@
                 <p class="ellipsis-3-lines index-{{ forloop.index }}">{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
-        <a class="read-more button button--primary">
+        <a href="{{ section.settings.url }}" class="read-more button button--primary">
             {{ section.settings.link_btn }}
             <span class="mask"></span>
         </a>
@@ -32,6 +32,11 @@
                 "id": "link_btn",
                 "label": "button text"
             },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "button url"
+            }
         ],
         "blocks": [
             {
