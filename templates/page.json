@@ -21,6 +21,7 @@
       "type": "about-us-banner",
       "settings": {
         "bg_image": "shopify://shop_images/about-us-big.jpg",
+        "mask": "shopify://shop_images/about-us-mask.png",
         "title": "About Us",
         "text": "<p>Founded by Dr. Carlos Sanchez and Dawn Kirstine, we are a healthcare </p><p>provider-driven brand committed to enhancing both beauty and wellness. </p><p>With our extensive backgrounds in medicine and patient care, we’ve </p><p>dedicated ourselves to creating a holistic space that combines aesthetic </p><p>excellence with health-focused supplements to empower individuals on their </p><p>journey to optimal well-being.</p>"
       }
