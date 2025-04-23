@@ -4,14 +4,16 @@
     align-items: flex-end;
 }   
 
-.about-us__bg {
+.about-us__bg,
+.about-us__mask {
     width: 100%;
     height: 100%;
     grid-row: 1;
     grid-column: 1;
 }
 
-.about-us__bg img {
+.about-us__bg img,
+.about-us__mask img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -43,4 +45,5 @@
     font-size: 20px;
     line-height: 160%;
     vertical-align: middle;
+    margin: 0;
 }
