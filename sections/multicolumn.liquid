@@ -57,6 +57,7 @@
           endfor
         -%}
         {%- for block in section.blocks -%}
+          {% assign index = forloop.index %}
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
             and block.settings.title == blank
@@ -124,6 +125,9 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
+                {%- endif -%}
+                {%- if index == 3 -%}
+                  <span>waaaaa</span>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
