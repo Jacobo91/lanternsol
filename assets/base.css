@@ -3852,6 +3852,7 @@ details-disclosure > details {
 /* blog post article */
 .article-template > * {
   font-family: 'Barlow';
+  color: rgba(0, 0, 0, 1);
 }
 .article-template p {
   font-weight: 400;
