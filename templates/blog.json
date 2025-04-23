@@ -43,7 +43,7 @@
           "type": "button",
           "settings": {
             "button_label": "READ NOW",
-            "button_link": "shopify://blogs/news/post",
+            "button_link": "shopify://blogs/meta/post",
             "button_style_secondary": false
           }
         }
