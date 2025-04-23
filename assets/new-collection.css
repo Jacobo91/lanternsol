@@ -15,7 +15,7 @@
     .new-collection-card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-inline: 240px;
+        margin-inline: 70px;
         gap: 40px;
         align-items: center;
         font-family: 'Barlow';
