@@ -1,4 +1,9 @@
 {{ 'syn-support.css' | asset_url | stylesheet_tag }}
+<style>
+    #syn-support {
+        background: {{  section.settings.bg_color }};
+    }
+</style>
 <div id="syn-support">
     <div class="syn-support-wrapper">
         <h2>{{ section.settings.title }}</h2>
@@ -29,7 +34,12 @@
                 "type": "richtext",
                 "id": "subtitle",
                 "label": "Subitle here"
-            }
+            },
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "BG Color",
+            },
         ],
         "blocks": [
             {
