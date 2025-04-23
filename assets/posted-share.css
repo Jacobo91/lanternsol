@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
 }
 .share {
     color: #FFF !important;
     text-transform: uppercase;
+    display: flex;
+    gap: 10px;
 }
