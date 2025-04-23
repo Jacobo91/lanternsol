@@ -1,6 +1,6 @@
 <style>
     .about-us-container {
-        background-image: url({{ section.settings.bg_image }});
+        background-image: url({{ section.settings.bg_image | image_url: width: 800 }});
         height: 676px;
         text-align: center;
         border: 1px solid black;
