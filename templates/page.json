@@ -121,12 +121,22 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "syn_support_EgNknb": {
+      "type": "syn-support",
+      "settings": {
+        "title": "Our Philosophy",
+        "subtitle": "<p>We are more than just supplements; we are your partners in health and </p><p>wellness. Our approach to wellness is rooted in three core values:</p>",
+        "bg_color": "#ffffff",
+        "txt_color": "#000000"
+      }
     }
   },
   "order": [
     "main",
     "about_us_banner_Pfgbd8",
     "image_with_text_mmL8K6",
-    "image_with_text_3T7LqM"
+    "image_with_text_3T7LqM",
+    "syn_support_EgNknb"
   ]
 }
