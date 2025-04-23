@@ -1,7 +1,7 @@
 {{ 'posted-share.css' | asset_url | stylesheet_tag }}
 <div class="article-template__content page-width page-width--narrow scroll-trigger animate--slide-in" id="posted-share">
     <span class="posted_in">{{ section.settings.date_posted }}</span>
-    <a class="button button--primary share">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ shop.url | append: request.path | url_escape }}"  class="button button--primary share">
         {{ section.settings.text }}
         {% render 'share-arrow' %}
         <span class="mask"></span>
