@@ -30,7 +30,7 @@ p {
 
 .you-may-enjoy-gallery {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 30px;
     margin: 0 auto;
@@ -69,4 +69,15 @@ p {
     position: relative;
     /* line-height: 1.5em; */
     max-height: 3em;
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .you-may-enjoy-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 30px;
+        margin: 0 auto;
+        justify-content: stretch;
+    }
   }
