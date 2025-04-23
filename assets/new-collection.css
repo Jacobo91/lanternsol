@@ -185,15 +185,18 @@
     gap: 25px;
 }
 
-/* value props */
-
-.new-collection-card.pdp a {
-    text-decoration: none;
+#new-collection a {
     background: red;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* value props */
+
+.new-collection-card.pdp a {
+    text-decoration: none;
 }
 
 .new-collection-card__value-props .title {
