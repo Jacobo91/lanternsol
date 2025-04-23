@@ -264,4 +264,6 @@
 .social-icons {
   margin-top: 26px;
   display: flex;
+  align-items: center;
+  gap: 40px;
 }
