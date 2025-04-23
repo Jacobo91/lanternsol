@@ -3858,6 +3858,7 @@ details-disclosure > details {
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
+  margin-top: 0;
 }
 .article-template h3 {
   font-weight: 600;
