@@ -4,7 +4,7 @@
     {% assign collection_handle = 'frontpage' %}
     {% assign collection = collections[collection_handle] %}
     {% for product in collection.products %}
-        <div class="new-collection-card">
+        <div class="new-collection-card scroll-trigger animate--slide-in">
             <a href="{{ product.url }}">
                 <div class="img-wrapper">
                     <img src="{{ product.featured_image | image_url: width: 800 }}">
