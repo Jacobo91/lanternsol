@@ -1,0 +1,35 @@
+.blog-banner {
+    background: rgba(0, 0, 0, 1);
+    height: 500px;
+}
+
+.blog-banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 700px;
+}
+
+.blog-banner__wrapper > * {
+    font-family: 'Barlow';
+}
+
+.blog-banner h1,
+.blog-banner span {
+    color: #fff;
+}
+
+.blog-banner h1 {
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
+}
+
+.blog-banner span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
