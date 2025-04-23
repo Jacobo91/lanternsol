@@ -1,0 +1,17 @@
+.you-may-enjoy-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    max-width: 690px;
+    margin: 0 auto;
+    justify-content: stretch;
+}
+
+.yme-card {
+    flex: 1 1 calc((100% - 40px) / 3); /* 2 gaps of 20px between 3 items */
+    max-width: calc((100% - 40px) / 3);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}

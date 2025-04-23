@@ -1,0 +1,57 @@
+{{ 'gallery.css' | asset_url | stylesheet_tag }}
+<div id="you-may-enjoy" class="you-may-enjoy-wrapper">
+    <h3>{{ section.settings.title }}</h3>
+    <div class="you-may-enjoy-gallery">
+        {% for block in section.blocks %}            
+            <div class="yme-card">
+                <div>
+                    <img src="{{ block.settings.image | image_url: width: 800 }}">
+                </div>
+                <h4>{{ block.settings.card_title }}</h4>
+                <p>{{ block.settings.card_text }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "you may enjoy",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "section title",
+            }
+        ],
+        "blocks": [
+            {
+                "type": "kb-card",
+                "name": "kb-card",
+                "limit": 6,
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "image one"
+                    },
+                    {
+                        "type": "text",
+                        "id": "card_title",
+                        "label": "card one title",
+                    },
+                    {
+                        "type": "text",
+                        "id": "card_text",
+                        "label": "card one text",
+                    },
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "you may enjoy"
+            }
+        ]
+    }
+{% endschema %}
