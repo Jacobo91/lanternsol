@@ -87,7 +87,7 @@
     .text-wrapper {
        grid-row: 1;
        grid-column: 2;
-       align-self:flex-end;
+       /* align-self:flex-end; */
        max-width: 650px;
     }
     .info {
