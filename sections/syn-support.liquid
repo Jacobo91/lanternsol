@@ -17,7 +17,7 @@
                 <div class="value-prop__card">
                     <div class="vp-img-wrapper">
                         <img src="{{ block.settings.value_prop_image | image_url: width: 400 }}">
-                        <p class="vp-title"></p>
+                        <p class="vp-title">{{ block.settings.value_prop_title }}</p>
                     </div>
                     <p>{{ block.settings.value_prop_text }}</p>
                 </div>
@@ -49,7 +49,13 @@
                 "type": "color",
                 "id": "txt_color",
                 "label": "txt Color",
-            }
+            },
+            {
+                "type": "checkbox",
+                "id": "is_about_us",
+                "label": "About us",
+                "default": false
+              }
         ],
         "blocks": [
             {
