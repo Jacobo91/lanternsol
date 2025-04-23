@@ -1,0 +1,39 @@
+<style>
+    .about-us-container {
+        background-image: url({{ section.settings.bg_image }});
+    }
+</style>
+<div id="about-us" class="about-us-container">
+    <div class="about-us__info">
+        <h1>{{ section.settings.title}}</h1>
+        <p></p>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "About us",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "bg_image",
+                "label": "bg image"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+            },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "text"
+            }
+        ],
+        "presets": [
+            {
+                "name": "About us banner"
+            }
+        ]
+    }
+{% endschema %}
