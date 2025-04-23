@@ -127,7 +127,8 @@
         "yme_card_niD6BW"
       ],
       "settings": {
-        "title": "Other Articles You May Enjoy"
+        "title": "Other Articles You May Enjoy",
+        "link_btn": "read more"
       }
     }
   },
