@@ -236,3 +236,7 @@
 .product-info:nth-of-type(odd) {
     padding-left: 100px;
 }
+
+.product-info:nth-of-type(even) {
+    padding-right: 100px;
+}
