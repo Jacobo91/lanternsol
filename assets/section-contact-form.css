@@ -54,4 +54,5 @@ form .field__input {
   font-size: 52px;
   line-height: 90%;
   letter-spacing: 0px;
+  max-width: 300px;
 }
