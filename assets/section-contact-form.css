@@ -40,4 +40,5 @@
 
 form .field__input {
   background: #3f3c3c;
+  border-radius: 15px;
 }
