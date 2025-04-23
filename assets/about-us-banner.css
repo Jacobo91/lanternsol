@@ -23,6 +23,7 @@
 }
 
 .about-us__info {
+    text-align: center;
     grid-row: 1;
     grid-column: 1;
 }
