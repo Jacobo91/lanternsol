@@ -4,6 +4,6 @@
     align-items: center;
 }
 .share {
-    color: #FFF;
+    color: #FFF !important;
     text-transform: uppercase;
 }
