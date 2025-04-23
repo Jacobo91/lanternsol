@@ -26,4 +26,13 @@
     text-align: center;
     grid-row: 1;
     grid-column: 1;
+    font-family: 'Barlow';
+}
+
+.about-us__info h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90%;
+    letter-spacing: 0px;
+    text-align: center;
 }
