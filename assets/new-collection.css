@@ -186,7 +186,7 @@
 }
 
 #new-collection a {
-    background: red;
+    background: #ebebeb;
     height: 100%;
     display: flex;
     justify-content: center;
