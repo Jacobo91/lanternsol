@@ -1,0 +1,28 @@
+{{ 'blog-banner.css' | asset_url | stylesheet_tag }}
+<div>
+    <h1>{{ section.settings.title }}</h1>
+    <span>{{ section.settings.date_posted }}</span>
+</div>
+
+{% schema %}
+    {
+        "name": "blog banner",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "blog banner"
+            },
+            {
+                "type": "text",
+                "id": "date_posted",
+                "label": "date posted"
+            }
+        ],
+        "presets": [
+            {
+                "name": "blog banner"
+            }
+        ]
+    }
+{% endschema %}
