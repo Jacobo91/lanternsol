@@ -1,6 +1,7 @@
 .new-collection {
     display: grid;
     row-gap: 40px;
+    padding-top: 80px;
 }
 
 .new-collection-card {
