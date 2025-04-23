@@ -52,6 +52,7 @@
     text-wrap: stable;
 }
 
+.value-prop__card > p,
 .syn-support-wrapper > p {
     margin: 0 !important;
 }
