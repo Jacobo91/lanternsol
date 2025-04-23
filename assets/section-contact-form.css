@@ -62,6 +62,8 @@ form .field__input {
 #ContactForm {
   position: relative;
   flex-basis: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .contact .contact__button {
