@@ -10,7 +10,7 @@
 </style>
 <div id="syn-support">
     <div class="syn-support-wrapper">
-        <h2>{{ section.settings.title }}</h2>
+        <h2 class="{% if section.settings.is_about_us == true %} about-us {% endif %}">{{ section.settings.title }}</h2>
         <p>{{ section.settings.subtitle }}</p>
         <div class="value-props">
             {% for block in section.blocks %}                
