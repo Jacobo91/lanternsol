@@ -1,7 +1,7 @@
 {{ 'gallery.css' | asset_url | stylesheet_tag }}
-<div id="you-may-enjoy" class="you-may-enjoy-wrapper article-template__content page-width page-width--narrow scroll-trigger animate--slide-in">
+<div id="you-may-enjoy" class="you-may-enjoy-wrapper scroll-trigger animate--slide-in">
     <h3>{{ section.settings.title }}</h3>
-    <div class="you-may-enjoy-gallery">
+    <div class="you-may-enjoy-gallery article-template__content page-width page-width--narrow">
         {% for block in section.blocks %}            
             <div class="yme-card">
                 <div>
