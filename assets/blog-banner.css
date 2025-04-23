@@ -30,6 +30,6 @@
 
 .blog-banner span {
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(14px, 4vw, 20px);
     line-height: 160%;
 }
