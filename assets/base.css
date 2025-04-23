@@ -3848,3 +3848,27 @@ details-disclosure > details {
     font-size: 20px;
   }
 }
+
+/* blog post article */
+.article-template > * {
+  font-family: 'Barlow';
+  color: rgba(0, 0, 0, 1);
+}
+.article-template p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  margin-top: 0;
+}
+.article-template h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 110.00000000000001%;
+  margin-bottom: 10px;
+  font-family: 'Barlow';
+}
+.article-template ul li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+}
