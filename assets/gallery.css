@@ -82,7 +82,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         column-gap: 20px;
-        row-gap: 30px;
+        row-gap: 39px;
         margin: 0 auto;
         justify-content: stretch;
     }
