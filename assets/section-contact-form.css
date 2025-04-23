@@ -89,7 +89,7 @@ form .field__input {
 
 .ContactForm-body-container {
   background: #3f3c3c;
-  border: 15px;
+  border-radius: 15px;
 }
 
 #ContactForm-body {
