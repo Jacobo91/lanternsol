@@ -545,6 +545,9 @@
   #shopify-section-template--24453778342204__image_with_text_3T7LqM .image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--bottom.grid__item {
     height: 358px;
   }
+  #ImageWithText--template--24453778342204__image_with_text_mmL8K6 {
+    padding-left: 85px;
+  }
 }
 
 /* blog */
@@ -586,4 +589,9 @@
 #ImageWithText--template--24453778342204__image_with_text_3T7LqM {
   max-width: 700px;
   margin: 0;
+}
+
+#ImageWithText--template--24453778342204__image_with_text_mmL8K6 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
