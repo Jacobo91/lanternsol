@@ -8,7 +8,7 @@
                     <img src="{{ block.settings.image | image_url: width: 800 }}">
                 </div>
                 <h4>{{ block.settings.card_title }}</h4>
-                <p>{{ block.settings.card_text }}</p>
+                <p class="ellipsis-3-lines">{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
     </div>
