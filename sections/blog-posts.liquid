@@ -27,7 +27,7 @@
         </div>
     {% endfor %}
     <a href="{{ block.settings.post_url }}" class="button button--primary nowrap read-more">
-        {{ block.settings.link_label }}
+        {{ section.settings.read_more }}
         <span class="mask"></span>
     </a>
 </div>
@@ -35,7 +35,13 @@
 {% schema %}
     {
         "name": "blog posts",
-        "settings": [],
+        "settings": [
+            {
+                "type": "text",
+                "id": "read_more",
+                "label": "bottom button"
+            },
+        ],
         "blocks": [
             {
                 "type": "post",
