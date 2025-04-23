@@ -73,11 +73,60 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_with_text_3T7LqM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ikGFam": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our mission is simple yet powerful",
+            "heading_size": "h1"
+          }
+        },
+        "text_xpzBVU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Provide clinically-proven, high-quality supplements that support holistic health. Inspired by the principles of “Medicine 3.0,” we are passionate about shifting healthcare from a reactive model to one that emphasizes preventative care, patient empowerment, and the integration of cutting-edge technology. Each product is meticulously crafted with integrity, using only the purest ingredients to deliver real, lasting results.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_UyAcaX": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ikGFam",
+        "text_xpzBVU",
+        "button_UyAcaX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Product-v1-methylation_1.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "about_us_banner_Pfgbd8",
-    "image_with_text_mmL8K6"
+    "image_with_text_mmL8K6",
+    "image_with_text_3T7LqM"
   ]
 }
