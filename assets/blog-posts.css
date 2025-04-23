@@ -81,7 +81,13 @@
        max-width: 650px;
     }
     .info {
-        /* flex-basis: 73%; */
+       grid-column: 1;
+    }
+    .link {
+        grid-column: 2;
+    }
+    .text-wrapper {
+
     }
     .info h2 {
         margin-block: 20px;
