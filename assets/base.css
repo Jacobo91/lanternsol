@@ -3889,3 +3889,7 @@ details-disclosure > details {
 .article-template__link.link {
   display: none;
 }
+
+.hide {
+  display: none;
+}
