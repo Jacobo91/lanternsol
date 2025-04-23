@@ -61,5 +61,6 @@
         display: flex;
         flex-direction: row;
         column-gap: 11px;
+        justify-content: space-around;
     }
 }
