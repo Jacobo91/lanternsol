@@ -3854,6 +3854,7 @@ details-disclosure > details {
   margin-bottom: 10px;
   font-family: 'Barlow';
   text-align: left;
+  margin-top: 40px;
 }
 .article-template ul li {
   font-weight: 400;
