@@ -87,7 +87,7 @@
         grid-column: 2;
     }
     .text-wrapper {
-
+        width: 650px;
     }
     .info h2 {
         margin-block: 20px;
