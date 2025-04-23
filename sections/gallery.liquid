@@ -8,7 +8,7 @@
                     <img src="{{ block.settings.image | image_url: width: 800 }}">
                 </div>
                 <h4 class="yme-card-title-{{ forloop.index }}">{{ block.settings.card_title }}</h4>
-                <p class="ellipsis-3-lines">{{ block.settings.card_text }}</p>
+                <p class="ellipsis-3-lines index-{{ forloop.index }}">{{ block.settings.card_text }}</p>
             </div>
         {% endfor %}
     </div>
