@@ -3856,21 +3856,34 @@ details-disclosure > details {
 }
 .article-template p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 160%;
   margin-top: 0;
 }
 .article-template h3 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 110.00000000000001%;
   margin-bottom: 10px;
   font-family: 'Barlow';
 }
 .article-template ul li {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 160%;
+}
+
+@media screen and (min-width: 1440px) {
+  
+  .article-template p {
+    font-size: 20px;
+  }
+  .article-template h3 {
+    margin-bottom: 10px;
+  }
+  .article-template ul li {
+    font-size: 20px;
+  }
 }
 
 .article-template__link.link {
