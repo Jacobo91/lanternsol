@@ -260,7 +260,7 @@
       "form": {
         "title": "Contact form",
         "name": "Your Name",
-        "email": "Email",
+        "email": "Email Address",
         "phone": "Phone number",
         "comment": "Comment",
         "send": "Send",
