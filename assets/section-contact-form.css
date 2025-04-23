@@ -44,9 +44,13 @@
   }
 }
 
-form .field__input {
+#ContactForm .contact__fields .field__input {
   background: #3f3c3c;
   border-radius: 15px;
+}
+
+#ContactForm-body {
+  background: #3f3c3c;
 }
 
 .contact .title {
