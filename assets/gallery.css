@@ -31,19 +31,19 @@ p {
 .you-may-enjoy-gallery {
     display: flex;
     flex-direction: column;
-    /* column-gap: 20px;
+    column-gap: 20px;
     row-gap: 30px;
     margin: 0 auto;
-    justify-content: stretch; */
+    justify-content: stretch;
 }
 
-/* .yme-card {
+.yme-card {
     flex: 1 1 calc((100% - 40px) / 3);
     max-width: calc((100% - 40px) / 3);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-} */
+}
 
 .yme-card img {
     width: 100%;
