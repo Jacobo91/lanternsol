@@ -61,6 +61,7 @@ form .field__input {
 
 #ContactForm {
   position: relative;
+  flex-basis: 100%;
 }
 
 .contact .contact__button {
