@@ -232,3 +232,7 @@
     height: auto;
     object-fit: cover;
 }
+
+.product-info:nth-of-type(odd) {
+    padding-left: 100px;
+}
