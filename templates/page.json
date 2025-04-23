@@ -25,10 +25,58 @@
         "title": "About Us",
         "text": "<p>Founded by Dr. Carlos Sanchez and Dawn Kirstine, we are a healthcare </p><p>provider-driven brand committed to enhancing both beauty and wellness. </p><p>With our extensive backgrounds in medicine and patient care, we’ve </p><p>dedicated ourselves to creating a holistic space that combines aesthetic </p><p>excellence with health-focused supplements to empower individuals on their </p><p>journey to optimal well-being.</p>"
       }
+    },
+    "image_with_text_mmL8K6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UJYF4j": {
+          "type": "heading",
+          "settings": {
+            "heading": "From MedSpa to Supplements",
+            "heading_size": "h1"
+          }
+        },
+        "text_fgXiAJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In a time where self-care has never been more important, we envisioned a sanctuary that prioritizes both beauty and health. Our journey began with The Luxe MedSpa, a place for individuals to embrace their natural beauty while nurturing their health. As we watched our clients flourish under our care, we recognized the potential to support their wellness beyond our MedSpa doors. This realization led to the creation of VitaLuxe Supplements – a premium line of science-backed health products designed for those who prioritize wellness, vitality, and longevity.<br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_6cMhEC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UJYF4j",
+        "text_fgXiAJ",
+        "button_6cMhEC"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "about_us_banner_Pfgbd8"
+    "about_us_banner_Pfgbd8",
+    "image_with_text_mmL8K6"
   ]
 }
