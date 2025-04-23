@@ -1,6 +1,6 @@
 <style>
     .about-us-container {
-        background-image: url({{ section.settings.bg_image | image_url: width: 1600 }});
+        background-image: url({{ section.settings.bg_image | image_url: width: 1440 }});
         height: 676px;
         text-align: center;
         border: 1px solid black;
@@ -10,6 +10,14 @@
     }
 </style>
 <div id="about-us" class="about-us-container">
+    <div class="about-us__bg">
+
+    </div>
+
+    <div class="about-us__mask">
+
+    </div>
+
     <div class="about-us__info">
         <h1>{{ section.settings.title}}</h1>
         <p>{{ section.settings.text }}</p>
