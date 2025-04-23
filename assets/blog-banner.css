@@ -5,6 +5,9 @@
 
 .blog-banner__wrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog-banner h1,
