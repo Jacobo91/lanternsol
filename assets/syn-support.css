@@ -67,6 +67,11 @@
     margin-bottom: 19px;
 }
 
+.vp-img-wrapper.about-us {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
 .vp-title + p,
 .vp-title + p + p {
     font-family: 'Barlow';
