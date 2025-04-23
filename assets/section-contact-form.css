@@ -37,3 +37,7 @@
     grid-column-gap: 2rem;
   }
 }
+
+form .field__input {
+  background: #3f3c3c;
+}
