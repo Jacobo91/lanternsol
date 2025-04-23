@@ -81,7 +81,7 @@
        max-width: 650px;
     }
     .info {
-        flex-basis: 73%;
+        /* flex-basis: 73%; */
     }
     .info h2 {
         margin-block: 20px;
