@@ -10,3 +10,10 @@
     border: 1px solid rgba(233, 18, 138, 1);
     padding: 26px 32px;
 }
+
+@media screen and (min-width: 1440px) {
+    #disclaimer {
+        font-size: 14px;
+        padding: 26px 32px;
+    }
+}
